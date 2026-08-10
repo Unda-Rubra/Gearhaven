@@ -1,3 +1,0 @@
-minecraft:overworld
-rocketnautics:deep_space
-rocketnautics:moon

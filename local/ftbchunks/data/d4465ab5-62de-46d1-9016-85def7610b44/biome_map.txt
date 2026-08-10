@@ -1,3 +1,0 @@
-#5FF minecraft:river
-#51A minecraft:stony_shore
-#2B7 minecraft:warm_ocean

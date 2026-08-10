@@ -138,39 +138,39 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:bat": true
-			"minecraft:slime": true
-			"minecraft:fox": true
-			"minecraft:enderman": true
-			"irons_spellbooks:necromancer": true
-			"minecraft:squid": true
-			"minecraft:sheep": true
-			"minecraft:spider": true
-			"minecraft:turtle": true
-			"minecraft:hoglin": true
-			"minecraft:wolf": true
-			"minecraft:skeleton": true
-			"minecraft:horse": true
-			"minecraft:tropical_fish": false
+			"minecraft:ghast": true
 			"minecraft:cow": true
+			"minecraft:villager": true
+			"minecraft:enderman": true
+			"minecraft:witch": true
+			"minecraft:turtle": true
+			"minecraft:cod": false
+			"minecraft:axolotl": true
+			"minecraft:iron_golem": true
+			"minecraft:squid": true
+			"minecraft:parrot": true
+			"minecraft:chicken": true
+			"irons_spellbooks:necromancer": true
+			"minecraft:magma_cube": true
+			"minecraft:wolf": true
+			"minecraft:armadillo": true
+			"minecraft:skeleton": true
+			"minecraft:spider": true
+			"minecraft:fox": true
 			"minecraft:bee": true
-			"touhou_little_maid:fairy": true
-			"minecraft:pig": true
-			"minecraft:rabbit": true
+			"minecraft:tropical_fish": false
+			"minecraft:creeper": true
 			"minecraft:zombie": true
 			"minecraft:strider": true
-			"minecraft:parrot": true
-			"minecraft:villager": true
-			"minecraft:creeper": true
+			"minecraft:sheep": true
+			"minecraft:hoglin": true
+			"minecraft:horse": true
+			"minecraft:pig": true
 			"minecraft:zombie_villager": true
-			"minecraft:witch": true
-			"minecraft:iron_golem": true
-			"minecraft:chicken": true
-			"minecraft:ghast": true
-			"minecraft:magma_cube": true
-			"minecraft:axolotl": true
-			"minecraft:armadillo": true
-			"minecraft:cod": false
+			"minecraft:rabbit": true
+			"touhou_little_maid:fairy": true
+			"minecraft:bat": true
+			"minecraft:slime": true
 			"minecraft:glow_squid": true
 		}
 		

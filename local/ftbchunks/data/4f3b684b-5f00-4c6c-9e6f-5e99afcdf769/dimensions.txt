@@ -1,9 +1,0 @@
-minecraft:overworld
-stellaris:earth_orbit
-stellaris:jupiter
-stellaris:mars
-stellaris:mars_orbit
-stellaris:mercury
-stellaris:mercury_orbit
-stellaris:moon
-stellaris:venus
