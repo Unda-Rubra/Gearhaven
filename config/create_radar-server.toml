@@ -1,0 +1,87 @@
+#.
+#Maximum possible distance in blocks between radar links in blocks
+# Default: 128
+# Range: > 1
+radarLinkRange = 128
+#.
+#Maximum size of monitor MultiBlock
+# Default: 9
+# Range: > 1
+monitorMaxSize = 9
+#.
+#Turn rate of radar guidance for CBCMW Missiles
+# Default: 0.15000000596046448
+# Range: 0.0 ~ 1.0
+radarGuidanceTurnRate = 0.15000000596046448
+#.
+#The firing delay used in leading calculation. Higher values may prove useful in laggy environments
+# Default: 0
+# Range: 0 ~ 1000
+firingDelay = 0
+#.
+#If true, Sable sub-levels hosting the radar or cannon will not be selected as weapon targets
+preventSableSelfTargeting = true
+#.
+#Increases the max Rotational speed of phys bearings controlled by Pitch/Yaw controllers
+# Default: 25.0
+# Range: 2.0 ~ 25.0
+controllerPhysbearingMaxSpeed = 25.0
+#.
+#The range at which the binocular can acquire a target
+# Default: 512
+# Range: 1 ~ 1000
+binocularRange = 512
+
+#.
+#Configs for radar bearing and radar stats
+[radarStatsConfig]
+	#.
+	#Maximum range of a Radar Contraption in blocks
+	# Default: 1000
+	# Range: > 1
+	maxRadarRange = 1000
+	#.
+	#Maximum vertical scan range of a radar in blocks
+	# Default: 20
+	# Range: > 1
+	radarYScanRange = 20
+	#.
+	#Base range of a radar receiver in blocks
+	# Default: 20
+	# Range: > 1
+	radarBaseRange = 20
+	#.
+	#Range increase per dish block in blocks
+	# Default: 10
+	# Range: > 1
+	dishRangeIncrease = 10
+	#.
+	#increases the range of the plane radar(in blocks)
+	# Default: 250
+	# Range: 1 ~ 1000
+	planeRadarRange = 250
+	#.
+	#If true, radar bearings will rotate slower the more dishes are connected to them
+	gearRadarBearingSpeed = true
+	#.
+	#Field of view of a radar in degrees
+	# Default: 90
+	# Range: 1 ~ 360
+	radarFOV = 90
+
+#.
+#Configs for the guided fuze
+[guidedFuzeConfig]
+	#.
+	#The size of the cone the guided fuze can track targets from. Values are in degrees and are bi-directional
+	# Default: 30.0
+	# Range: 1.0 ~ 180.0
+	guidedFuzeMaxSeekDegrees = 30.0
+	#.
+	#The maximum number of degrees per tick the guided fuze can correct its course
+	# Default: 3.0
+	# Range: 1.0 ~ 3.4028234663852886E38
+	guidedFuzeMaxDegreesPerTick = 3.0
+	#.
+	#Determines if the guided fuze can seek its target before it has began to fall
+	guidedFuzeSeekBeforeApex = false

@@ -1,0 +1,16 @@
+#34D minecraft:deep_lukewarm_ocean
+#010 minecraft:forest
+#0F6 stellaris:infernal_venus_barrens
+#4B0 minecraft:jungle
+#33E stellaris:jupiter
+#79A minecraft:lukewarm_ocean
+#6E0 stellaris:mars_desert
+#01F stellaris:mars_rocky_plains
+#534 stellaris:mercury
+#5E9 stellaris:moon_caves
+#134 stellaris:moon_desert
+#5FF minecraft:river
+#67B minecraft:savanna
+#727 stellaris:space
+#51A minecraft:stony_shore
+#638 stellaris:venus_desert

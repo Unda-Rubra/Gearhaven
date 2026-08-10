@@ -1,0 +1,20 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"rocketnautics:deepslate_titanium_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:hologram_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:engine_nozzle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:thruster_mount"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:rcs_thruster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:booster_thruster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:vector_thruster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:rocket_thruster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:titanium_casing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:space_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:copper_anchor_boots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:copper_leg_thrusters"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:jetpack","components":"{\"rocketnautics:jetpack_fuel\":{amount:8000,id:\"minecraft:lava\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rocketnautics:music_disc_space"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:deepslate_coal_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:coal_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"domum_ornamentum:plain"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

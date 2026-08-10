@@ -1,0 +1,9 @@
+minecraft:overworld
+northstar:earth_orbit
+northstar:mars
+northstar:mars_orbit
+northstar:mercury
+northstar:mercury_orbit
+northstar:venus
+northstar:venus_orbit
+northstar:moon

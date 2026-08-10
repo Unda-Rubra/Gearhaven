@@ -1,0 +1,135 @@
+[researches]
+	# Default: 1.0
+	# Range: 0.0 ~ 2.147483647E9
+	speed = 1.0
+	#Can be research multiple 6 depth, ignore limitation of choose only one
+	ignoreConstraints = false
+
+[fields]
+	#If true, Citizen can works same field to without wait time. Also work in field list by sequentially.
+	#If false, use MineColonies' s method.
+	newRetrieveMethod = true
+
+[jobs]
+	# Default: 500
+	# Range: > 0
+	blockMiningDelay = 500
+	# Default: 15
+	# Range: > 0
+	blockBuildingDelay = 15
+	#for restaurant, netherworker
+	# Default: 5
+	# Range: > 0
+	menuPerLevel = 5
+	#Disables the citizen's leisure.
+	disableLeisure = true
+
+	[jobs.crafing]
+		#craftingTicks = progressMultiplier / craftSkillLevel * hittingTime
+		# Default: 10
+		# Range: > 0
+		progressMultiplier = 10
+		# Default: 3
+		# Range: > 0
+		hittingTime = 3
+		#The delay ticks for go to work again after Citizen returned at hut
+		#This was 0 in 1.19.2
+		#MineColonies's default value is `400`
+		# Default: 0
+		# Range: 0 ~ 400
+		decideDelay = 0
+
+	[jobs.sifter]
+		#siftingTicks = progressMultiplier - strengthLevel
+		# Default: 50
+		# Range: > 0
+		progressMultiplier = 50
+
+	[jobs.dyer]
+		#disables wool bleaching to avoid wool loop crafting. To take effect it requires using the command "/mc colony requestsystem-reset-all"
+		#MineColonies's default value is `false`
+		dyerDisableBleaching = true
+
+	[jobs.farmer]
+		#finalDelay = workDelay - (skillDivider * staminaLevel)
+		# Default: 40
+		# Range: > 0
+		workDelay = 40
+		# Default: 2.0
+		# Range: 0.0 ~ 2.147483647E9
+		skillDivider = 2.0
+		#if harvested count reached to this, farmer will go to dump
+		# Default: 256
+		# Range: > 64
+		actionsDoneUntilDumping = 256
+		#whether plant seed after hoeing dirt
+		#MineColonies's default value is `false`
+		plantAfterHoe = true
+		#whether plant seed after harvest crop
+		#MineColonies's default value is `false`
+		plantAfterHarvest = true
+
+	[jobs.undertaker]
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		resurrectTotemBreakChance = 0.01
+
+		[jobs.undertaker.resurrectChance]
+			#resurrectChance = totemChance + (buiding's level * buildingLevelWeight) + (worker's mana * manaLevelWeight)
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			totemSingleChance = 0.05
+			# Default: 0.075
+			# Range: 0.0 ~ 1.0
+			totemMultipleChance = 0.075
+			# Default: 0.005
+			# Range: 0.0 ~ 1.0
+			buildingLevelWeight = 0.005
+			# Default: 0.00125
+			# Range: 0.0 ~ 1.0
+			manaLevelWeight = 0.00125
+
+		[jobs.undertaker.resurrectChanceCap]
+			#resurrectChanceCap = totemChance + base + (Mystical Site's level * mysticalLevelWeight)
+			disable = true
+			# Default: 0.025
+			# Range: 0.0 ~ 1.0
+			base = 0.025
+			# Default: 0.005
+			# Range: 0.0 ~ 1.0
+			mysticalLevelWeight = 0.005
+
+	[jobs.structure]
+		#If this is off, Builders will requests 'Leaves' on needed it when build.
+		leavesFree = true
+
+	[jobs.warehouse]
+		# Default: 2
+		# Range: 1 ~ 20
+		couriersPerLevel = 2
+
+	[jobs.maximumStock]
+		#This will be affected by research effect 'effects/minimumstockmultiplier'
+		# Default: 5
+		# Range: 0 ~ 100
+		kindsPerLevel = 5
+
+[citizens]
+	disableMourn = false
+	#MineColonies's default value is `false`
+	disableInteractionDelay = true
+
+	[monsters.raider]
+		#MineColonies's default value is `false`
+		disableImmunity = true
+		#MineColonies's default value is `false`
+		disableThorns = true
+
+	[blocks.crop]
+		#Caution: if change this, all planted MineColonies crops when before are will break into item.
+		#If this is true, player be can plant crop.
+		#MineColonies's default value is `false`
+		vanillaFarmland = true
+		#MineColonies's default value is `false`
+		ignoreBiome = true
+		canPerformBonemeal = true

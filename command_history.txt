@@ -1,0 +1,50 @@
+/tp 0 18000 0
+/tp 0 19900 0
+/tp 0 24000 0
+/tp 0 100000 0
+/tp 0 20000 0
+/gamemode survival
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/tp -2134 300 -9187
+/gamemode spectator
+/neoforge tps
+/gamemode creative
+/tp -743 0 -2218
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/tp -743 100 2218
+/gamemode spectator
+/gamemode creative
+/neoforge tps
+/tp -2592 100 5516
+/tp 2592 100 -5516
+/gamemode spectator
+/gamemode creative
+/neoforge tps
+/tp -1556 100 -2442
+/neoforge tps
+/gamemode spectator
+/neoforge tps
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode spectator
+/gamemode survival
+/gamemode creative
+/neoforge tps
+/gamemode survival
+/back
+/gamemode creative
+/gamemode survival
+/back
+/gamemode creative
+/gamemode survival
+/neoforge tps
+/tp 684 100 -1256

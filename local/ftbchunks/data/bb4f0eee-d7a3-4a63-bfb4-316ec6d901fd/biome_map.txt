@@ -1,0 +1,7 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#4F9 minecraft:dark_forest
+#010 minecraft:forest
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#579 minecraft:windswept_savanna

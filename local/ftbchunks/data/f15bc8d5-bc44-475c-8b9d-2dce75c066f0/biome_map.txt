@@ -1,0 +1,14 @@
+#05B minecraft:bamboo_jungle
+#556 minecraft:beach
+#34D minecraft:deep_lukewarm_ocean
+#010 minecraft:forest
+#286 minecraft:grove
+#51E minecraft:jagged_peaks
+#4B0 minecraft:jungle
+#79A minecraft:lukewarm_ocean
+#5FF minecraft:river
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#3AF minecraft:sparse_jungle
+#421 minecraft:stony_peaks
+#51A minecraft:stony_shore

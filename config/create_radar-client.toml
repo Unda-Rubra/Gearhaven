@@ -1,0 +1,65 @@
+#.
+#This is the color of the ground radar on the monitor
+# Default: 65280
+# Range: > 0
+groundRadarColor = 65280
+#.
+#This is the scale of the grid boxes on the monitor in blocks
+# Default: 100
+# Range: > 1
+gridBoxScale = 100
+#.
+#This is the color of hostile entities on the monitor
+# Default: 16711680
+# Range: > 0
+hostileColor = 16711680
+#.
+#This is the color of friendly entities on the monitor
+# Default: 65280
+# Range: > 0
+friendlyColor = 65280
+#.
+#This is the color of players on the monitor
+# Default: 255
+# Range: > 0
+playerColor = 255
+#.
+#This is the color of projectiles on the monitor
+# Default: 16776960
+# Range: > 0
+projectileColor = 16776960
+#.
+#This is the color of contraptions on the monitor
+# Default: 16777215
+# Range: > 0
+contraptionColor = 16777215
+#.
+#This is the color of Sable sub-levels on the monitor
+# Default: 16776960
+# Range: > 0
+sableColor = 16776960
+#.
+#This is the color of dropped items on the monitor
+# Default: 16753920
+# Range: > 0
+itemcolor = 16753920
+#.
+#This is the color of neutral entities on the monitor
+# Default: 16777215
+# Range: > 0
+neutralEntityColor = 16777215
+
+#.
+#monitorConfig
+[monitorConfig]
+	#.
+	#If true, the monitor will always display blank. this may improve performance
+	disableMonitorRendering = false
+	#.
+	#If any interaction with the monitor should open up the GUI. if false, uses pre 0.4 behavior
+	useGuiByDefault = true
+	#.
+	#The scale of ship names and player usernames as they appear in the monitor GUI
+	# Default: 0.5
+	# Range: 0.0 ~ 3.4028234663852886E38
+	monitorLabelScale = 0.5

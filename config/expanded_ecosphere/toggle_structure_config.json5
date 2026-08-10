@@ -1,0 +1,36 @@
+/*
+This config makes it possible to switch off any structure.
+To disable a structure, simply set the value of that structure to "false".
+To change the rarity of a structure category use the structure placement config.
+
+=====
+Created by Cristel Lib
+*/
+{
+	"banyan_sparse_jungle": {
+		"banyan_sparse_jungle": true
+	},
+	"baobab_dry_tropical_forest": {
+		"baobab_dry_tropical_forest": true
+	},
+	"baobab_savanna": {
+		"baobab_savanna": true
+	},
+	"baobab_tropical_forest": {
+		"baobab_tropical_forest": true
+	},
+	"el_dorado": {
+		"el_dorado": true
+	},
+	"elephant_graveyard_fossils": {
+		"elephant_graveyard_fossil": true
+	},
+	"features": {
+		"giant_fallen_log": true
+	},
+	"villages": {
+		"village_badlands": true,
+		"village_badlands_desert": true,
+		"village_wooded_badlands": true
+	}
+}

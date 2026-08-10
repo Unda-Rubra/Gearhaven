@@ -1,0 +1,13 @@
+[21:10:18] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
+[21:10:18] [INIT] Loaded plugins:
+[21:10:18] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[21:10:18] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[21:10:18] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[21:10:18] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
+[21:10:18] [INIT] - com.github.tartaricacid.touhoulittlemaid.compat.kubejs.ModKubeJSPlugin
+[21:10:18] [INIT] - moe.wolfgirl.probejs.plugin.ProbeJSKJSPlugin
+[21:10:18] [INIT] - com.lightning.northstar.compat.kubejs.NorthstarKubeJsPlugin
+[21:10:18] [INFO] client_scripts:main.js#2: Hello, World! (Loaded client example script)
+[21:10:18] [INFO] Loaded script client_scripts:main.js in 0.0 s
+[21:10:18] [INFO] Loaded 1/1 KubeJS client scripts in 0.016 s with 0 errors and 0 warnings
+[21:10:26] [INFO] Client resource reload complete!
