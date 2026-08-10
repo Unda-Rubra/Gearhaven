@@ -1,0 +1,268 @@
+	[jobs.ranger]
+		canShootFireworkRocket = true
+
+	[jobs.gunner]
+		#DONT_USE: don't use bullet, only shot default bullet
+		#CAN_USE: use bullet if citizen have bullet, else shot default bullet
+		#ONLY_USE: citizen must have bullet
+		#Allowed Values: DONT_USE, CAN_USE, ONLY_USE
+		bulletMode = "CAN_USE"
+
+		[jobs.gunner.searchRange]
+			# Default: 16
+			# Range: 0 ~ 32
+			horizontal = 16
+			# Default: 3
+			# Range: 0 ~ 32
+			vertical = 3
+			# Default: 25
+			# Range: 0 ~ 32
+			verticalBonusOnGuard = 25
+
+		[jobs.gunner.attackRange]
+			# Default: 10.0
+			# Range: 2.0 ~ 24.0
+			base = 10.0
+			# Default: 0.3
+			# Range: 0.0 ~ 24.0
+			increasePerSkillLevel = 0.3
+			# Default: 1.0
+			# Range: 0.0 ~ 24.0
+			increasePerBuildingLevel = 1.0
+			# Default: 24.0
+			# Range: 2.0 ~ 48.0
+			maximum = 24.0
+			# Default: 10.0
+			# Range: 0.0 ~ 24.0
+			bonusOnGuard = 10.0
+			yDifferenceCorrection = true
+
+		[jobs.gunner.combatMoveSpeed]
+			# Default: 1.0
+			# Range: 0.1 ~ 2.0
+			base = 1.0
+			# Default: 0.01
+			# Range: 0.0 ~ 24.0
+			increasePerSkillLevel = 0.01
+			# Default: 0.02
+			# Range: 0.0 ~ 24.0
+			increasePerBuildingLevel = 0.02
+
+	[jobs.orchardist]
+		# Default: 120
+		# Range: 0 ~ 240
+		searchRange = 120
+		# Default: 10
+		# Range: 0 ~ 20
+		searchVerticalRange = 10
+		# Default: 400
+		# Range: > 0
+		searchDelayAfterNotFound = 400
+		# Default: 40
+		# Range: > 0
+		harvestDelay = 40
+		# Default: 0.5
+		# Range: 0.0 ~ 2.147483647E9
+		harvestDelayReducePerSkillLevel = 0.5
+		# Default: 0.0015
+		# Range: 0.0 ~ 2.147483647E9
+		moveSpeedBonusPerSkillLevel = 0.0015
+		# Default: 128
+		# Range: > 64
+		actionsDoneUntilDumping = 128
+
+	[jobs.fluidManager]
+		# Default: 120
+		# Range: 0 ~ 240
+		searchRange = 120
+		# Default: 10
+		# Range: 0 ~ 20
+		searchVerticalRange = 10
+		# Default: 400
+		# Range: > 0
+		searchDelayAfterNotFound = 400
+		# Default: 80
+		# Range: > 0
+		pickupDelay = 80
+		# Default: 0.5
+		# Range: 0.0 ~ 2.147483647E9
+		pickupDelayReducePerSkillLevel = 0.5
+
+	[jobs.butcher]
+		# Default: 400
+		# Range: > 0
+		searchDelayAfterNotFound = 400
+		# Default: 80
+		# Range: > 0
+		harvestDelay = 80
+		# Default: 0.5
+		# Range: 0.0 ~ 2.147483647E9
+		workDelayReducePerSkillLevel = 0.5
+
+	#Applied Energistics 2
+	[modules.appliedenergistics2]
+
+		#Citizen Terminal
+		[modules.appliedenergistics2.citizenTerminal]
+			#Ticks allowed for AE2 crafting calculation to complete before being cancelled (20 ticks = 1 second, default = 400 = 20s)
+			# Default: 400
+			# Range: 20 ~ 9223372036854775807
+			calculationTimeoutTicks = 400
+			#Number of consecutive 5-tick checks with no crafting progress before the job is cancelled (default = 1200 ≈ 5 minutes)
+			# Default: 1200
+			# Range: > 1
+			linkNoProgressChecks = 1200
+
+	#Immersive Engineering
+	[modules.immersiveengineering]
+
+			[modules.immersiveengineering.job.gunner_revolver]
+				#Citizen will have reload time after every 8 shots
+				needReload = true
+				# Default: 60
+				# Range: 0 ~ 600
+				reloadDuration = 60
+				#Nearby monsters will come to the Citizen
+				#Also Warden and Sculk blocks can may listen noise
+				occurNoise = true
+				#If revolver has 'Precision Scope', search/attack range will be multiply this
+				# Default: 1.25
+				# Range: 1.0 ~ 2.5
+				scopeRangeMultiplier = 1.25
+
+				[modules.immersiveengineering.job.gunner_revolver.attackDelay]
+					# Default: 60
+					# Range: 10 ~ 200
+					base = 60
+					# Default: 1.0
+					# Range: 0.0 ~ 200.0
+					decreasePerSkillLevel = 1.0
+					# Default: 0.0
+					# Range: 0.0 ~ 200.0
+					decreasePerBuildingLevel = 0.0
+
+				[modules.immersiveengineering.job.gunner_revolver.defaultBulletDamage]
+					# Default: 2.0
+					# Range: 0.0 ~ 2.147483647E9
+					base = 2.0
+					# Default: 0.2
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerSkillLevel = 0.2
+					# Default: 0.0
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerBuildingLevel = 0.0
+					# Default: 1.5
+					# Range: 1.0 ~ 3.0
+					headshotMultiplier = 1.5
+
+	#Reliquary Reincarnations
+	[modules.reliquary]
+
+			[modules.reliquary.job.gunner_handgun]
+				#Citizen will have reload time after every 8 shots
+				# Default: 60
+				# Range: 0 ~ 600
+				reloadDuration = 60
+
+				[modules.reliquary.job.gunner_handgun.attackDelay]
+					# Default: 60
+					# Range: 10 ~ 200
+					base = 60
+					# Default: 1.0
+					# Range: 0.0 ~ 200.0
+					decreasePerSkillLevel = 1.0
+					# Default: 0.0
+					# Range: 0.0 ~ 200.0
+					decreasePerBuildingLevel = 0.0
+
+				[modules.reliquary.job.gunner_handgun.defaultBulletDamage]
+					# Default: 2.0
+					# Range: 0.0 ~ 2.147483647E9
+					base = 2.0
+					# Default: 0.2
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerSkillLevel = 0.2
+					# Default: 0.0
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerBuildingLevel = 0.0
+
+	#Refined Storage
+	[modules.refinedstorage]
+
+		#Citizen Grid
+		[modules.refinedstorage.citizenGrid]
+			# Default: 1
+			# Range: > 0
+			energyUsage = 1
+
+	#ewewukek's Musket Mod
+	[modules.ewewukeks_musketmod]
+
+				[modules.ewewukeks_musketmod.job.gunner_pistol.attackDelay]
+					#will reload before every shot and reload duration is '40' ticks
+					# Default: 28
+					# Range: 10 ~ 200
+					base = 28
+					# Default: 1.0
+					# Range: 0.0 ~ 200.0
+					decreasePerSkillLevel = 1.0
+					# Default: 0.0
+					# Range: 0.0 ~ 200.0
+					decreasePerBuildingLevel = 0.0
+
+				[modules.ewewukeks_musketmod.job.gunner_pistol.defaultBulletDamage]
+					# Default: 2.0
+					# Range: 0.0 ~ 2.147483647E9
+					base = 2.0
+					# Default: 0.2
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerSkillLevel = 0.2
+					# Default: 0.0
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerBuildingLevel = 0.0
+
+				[modules.ewewukeks_musketmod.job.gunner_musket.attackDelay]
+					#will reload before every shot and reload duration is '40' ticks
+					# Default: 28
+					# Range: 10 ~ 200
+					base = 28
+					# Default: 1.0
+					# Range: 0.0 ~ 200.0
+					decreasePerSkillLevel = 1.0
+					# Default: 0.0
+					# Range: 0.0 ~ 200.0
+					decreasePerBuildingLevel = 0.0
+
+				[modules.ewewukeks_musketmod.job.gunner_musket.defaultBulletDamage]
+					# Default: 2.0
+					# Range: 0.0 ~ 2.147483647E9
+					base = 2.0
+					# Default: 0.2
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerSkillLevel = 0.2
+					# Default: 0.0
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerBuildingLevel = 0.0
+
+				[modules.ewewukeks_musketmod.job.gunner_blunderbuss.attackDelay]
+					#will reload before every shot and reload duration is '40' ticks
+					# Default: 28
+					# Range: 10 ~ 200
+					base = 28
+					# Default: 1.0
+					# Range: 0.0 ~ 200.0
+					decreasePerSkillLevel = 1.0
+					# Default: 0.0
+					# Range: 0.0 ~ 200.0
+					decreasePerBuildingLevel = 0.0
+
+				[modules.ewewukeks_musketmod.job.gunner_blunderbuss.defaultBulletDamage]
+					# Default: 2.0
+					# Range: 0.0 ~ 2.147483647E9
+					base = 2.0
+					# Default: 0.2
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerSkillLevel = 0.2
+					# Default: 0.0
+					# Range: 0.0 ~ 2.147483647E9
+					increasePerBuildingLevel = 0.0

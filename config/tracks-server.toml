@@ -1,0 +1,3 @@
+[server]
+	#Allows operators to open the in-game tracks render tuning menu with J. Disabled by default.
+	enableRenderTuningCheats = false
