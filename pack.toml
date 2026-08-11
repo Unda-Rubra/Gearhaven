@@ -1,4 +1,4 @@
-name = "齿轮星都"
+name = "Gearhaven 齿轮星都"
 author = "Unda Rubra"
 version = "0.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2f2caddf3ac39849c30f7898dd2d942f07d8a9ed0b302ac601071da12c55d783"
+hash = "d3957b11c237caa7f6ad6f3ae65290b327a0127e2157e30ae6bc33a4f0c0df48"
 
 [versions]
 minecraft = "1.21.1"

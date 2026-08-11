@@ -3705,310 +3705,6 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
-file = "mods/CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar"
-hash = "bd4164b9ec8e21775e34a99a8d21e5280ee8cc6d3bd003a1b32dc3ada59ae887"
-
-[[files]]
-file = "mods/ProbeJS-8.0.3.jar"
-hash = "afb957ce00611cfc7de4bb33ac1ac8ea1d880c741ac14b9c67876b207b1377e7"
-
-[[files]]
-file = "mods/PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar"
-hash = "00069866c4c6bb67ee5192d1b425d46e6a1601dc598e61bd10b67ba5fa8b029c"
-
-[[files]]
-file = "mods/Searchables-neoforge-1.21.1-1.0.2.jar"
-hash = "ca193f0c69033d8f709f9e073a7c1ef4ea46714e5c2f94eb23ace12781c6aa68"
-
-[[files]]
-file = "mods/SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
-hash = "68036561cc5511766d54cc0deabc3fc3a5e68f9e3db2478f2574ec82b494374b"
-
-[[files]]
-file = "mods/[AI改进] AI-Improvements-1.21-0.5.3.jar"
-hash = "795618769ff1ac782750be9e8faaf3e3d212f1687c3baab98c1282a98a63a41e"
-
-[[files]]
-file = "mods/[FTB 任务] ftb-quests-neoforge-2101.1.29.jar"
-hash = "2ffadf25c6cf01fd77bfddee0263e526750ae3597befed77004dddf40ef8e2c1"
-
-[[files]]
-file = "mods/[FTB 团队] ftb-teams-neoforge-2101.1.10.jar"
-hash = "a656f2aa0e11a933aab3ba697690aa0eb2041f65e6c5daa448897ee0a6d37a6c"
-
-[[files]]
-file = "mods/[JEI物品管理器] jei-1.21.1-neoforge-19.43.0.392.jar"
-hash = "ee9f287cb4aaef8ceb5bcb44008e4456da18850211a6b758600b175c9a88a91f"
-
-[[files]]
-file = "mods/[UI整合] OverflowingBars-v21.1.1-1.21.1-NeoForge.jar"
-hash = "5f856c47156915fd13ff42917401e488212bb5e2df25fde41f6ec1b032e383db"
-
-[[files]]
-file = "mods/[Xaero的世界地图] xaeroworldmap-neoforge-1.21.1-1.41.2.jar"
-hash = "36b163fe8be4c2e800668c49294473da61eb360d821db675a2a948f8cc7c3d2b"
-
-[[files]]
-file = "mods/[Xaero的小地图] xaerominimap-neoforge-1.21.1-26.1.0.jar"
-hash = "6bd6cbab01ff57b9ba2fbfee18f9605593101f15d80e8d19dc59c385d2535ccc"
-
-[[files]]
-file = "mods/[ftbe] ftb-essentials-neoforge-2101.1.10.jar"
-hash = "a61de1b883ec9d6d652276f453e8e60b18bd315fef8c62f21d6545260d526587"
-
-[[files]]
-file = "mods/[ftb区块] ftb-chunks-neoforge-2101.1.21.jar"
-hash = "2cc32a613dd04d9355b88e6f455235aaf00768c270489657c9949f23b9195588"
-
-[[files]]
-file = "mods/[ftb库] ftb-library-neoforge-2101.1.34.jar"
-hash = "603e7c9fc8e7020642f2ff6d3a904ef5cb12f7cf8b683c5ff8b08f120d083cff"
-
-[[files]]
-file = "mods/[kjs魔改] kubejs-neoforge-2101.7.2-build.368.jar"
-hash = "28867299e7a9f02cfd74e34745fdbbb073fe4887fddbc98fd6c1ed2e87b01482"
-
-[[files]]
-file = "mods/[世界地形改造] lithosphere-1.8.1.jar"
-hash = "54f594090ea529477351711ddc479329a3bc6861804b86819150fca757880fd6"
-
-[[files]]
-file = "mods/[内存泄漏检测] alltheleaks-1.1.11+1.21.1-neoforge.jar"
-hash = "a5bf9bdb3a52b09b1521cdee46735a6e2265438a5084284d037e0042306bd6bd"
-
-[[files]]
-file = "mods/[农夫乐事] FarmersDelight-1.21.1-1.3.2.jar"
-hash = "8ff438d62e1fce61542945faae45975d823e04bd6e73a07a121ea05ce2f03de7"
-
-[[files]]
-file = "mods/[区块加载优化] c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar"
-hash = "d8608e105a084e38ee86f01056f00a92db7fd3e480d8ad4f72d25c8b97e71248"
-
-[[files]]
-file = "mods/[口渴] ThirstWasTaken-1.21.1-2.1.5.jar"
-hash = "f9442733b66b112ea5503caba31e321e8ca8767e2c5a9a4aea8976eea0eba87e"
-
-[[files]]
-file = "mods/[可视化性能检测] observable-5.4.4.jar"
-hash = "f344b47b58f4fd48d1aa95ee4d5c16252b5e5bd39f829fabc96b27097202d2e5"
-
-[[files]]
-file = "mods/[城镇交流] towntalk-1.2.0.jar"
-hash = "98139f54cc0f6f4be6d7fa8927cd170df8b14545ae04643436dbd48517589eb4"
-
-[[files]]
-file = "mods/[女仆摇曲柄] MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar"
-hash = "7b24ce1007c57aefd9e444c4470c5064feaf4e16e7198ae5049e98f103fb5049"
-
-[[files]]
-file = "mods/[女仆施法] winefoxs_spellbooks-1.21.1-1.0.1.jar"
-hash = "f90bd1709e0801d13e70fc77a1808b4636bb9657182464ee60e4a4a8e682cf30"
-
-[[files]]
-file = "mods/[实体渲染机制优化] entityculling-neoforge-1.10.5-mc1.21.1.jar"
-hash = "2eacd2bada39bf1d1ef695736646790c619c0e6cdeaf3d7e3cfc9139d26fae02"
-
-[[files]]
-file = "mods/[属性修复] attributefix-neoforge-1.21.1-21.1.3.jar"
-hash = "b2b20f3d44e824071284c14de3f4d3323d420e1c450040b339a5c37d2c382ad4"
-
-[[files]]
-file = "mods/[履带] tracks-neoforge-1.21.1-1.0.1.jar"
-hash = "b126b2522a129c13ebec6491b8602726bad9a3df201cf906468ba583796125c8"
-
-[[files]]
-file = "mods/[帕秋莉手册] Patchouli-1.21.1-93-NEOFORGE.jar"
-hash = "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993"
-
-[[files]]
-file = "mods/[建筑师切割机] domum-ornamentum-1.0.234-snapshot-main.jar"
-hash = "538f8364299d06a9e75252b4e6f63d8b3b520c38debd72d0ff97ba14e6cc372c"
-
-[[files]]
-file = "mods/[建筑手杖-耕云钓月版] constructionwand-kots-1.21.1-2.16.9.jar"
-hash = "cf6ed4cf33d7cd44e026c4e6d2d337d022db7050a861ee11cae92c6bb3507b8f"
-
-[[files]]
-file = "mods/[快速树叶腐烂] fastleafdecay-35.jar"
-hash = "0b90f259caef64c3aa09d05427859990a51adec072540a9c598370b86c966a98"
-
-[[files]]
-file = "mods/[快速配方查找] fastrecipesearch-1.21.1-26.2-neoforge.jar"
-hash = "e5944b8159ea7ae45e01c0d3fcbd6f75154b75336a35f01d4ac52f9b22d6ca81"
-
-[[files]]
-file = "mods/[拾光定影] exposure-neoforge-1.21.1-1.9.18.jar"
-hash = "674c537a99f69b2bae53521c95dae59bc5f4eb2eb15418eec0ecbaf36b53d888"
-
-[[files]]
-file = "mods/[收获] reap-neoforge-1.21.1-1.1.2.jar"
-hash = "0362d2518db50666ebcb832d56b61de36990cf812f4f87cedf923e8420d6b3e1"
-
-[[files]]
-file = "mods/[是！史蒂夫模型] ysm-2.6.5-neoforge+mc1.21.1-release.jar"
-hash = "b285c73d4ec010d9a9be3c53c1bee890cf269645be5f1bcf1c27a2e8e82807cb"
-
-[[files]]
-file = "mods/[机械动力：汽鸣铁道] railways-0.3.0-beta.2+neoforge-mc1.21.1.jar"
-hash = "64b74ddad661deae1cfe7e8334cfa3d39bb8ef7b761f83595ba0476c4a9bb1d5"
-
-[[files]]
-file = "mods/[机械动力：流光溢彩] createprism-1.2.2.jar"
-hash = "3b9c80f8a0104a2cee1af2b0a17b5a500f5600c55bccc441a34063154587a8fa"
-
-[[files]]
-file = "mods/[机械动力：雷达] create_radar-0.4.4-10+mc1.21.1.jar"
-hash = "6f28bf046c09f96c0040f13fdba5f3ad8b2c0715a99e8c0958062c4f8a855c06"
-
-[[files]]
-file = "mods/[模拟殖民地] minecolonies-1.1.1285-1.21.1.jar"
-hash = "edcdfa059062c9c67840440ad48d68cecdb10ed2b71294eda26568268c570a03"
-
-[[files]]
-file = "mods/[模组秘典] modonomicon-1.21.1-neoforge-1.120.4.jar"
-hash = "35d055e524c3491126ebe874984e8d77cb18460de4479d03a36d9f00404cc726"
-
-[[files]]
-file = "mods/[殖民地优化] colonypathingedition-1.21.1-1.0.5-ALPHA-12.jar"
-hash = "4cbb562b3c2e7f6159841adb5cdc7349001c6589d33ffa94c7c076f6c4d93a32"
-
-[[files]]
-file = "mods/[殖民地配置] MineColonies_Tweaks-1.21.1-3.29.jar"
-hash = "bfb33675c924c3d5b5043df63a84154c51a24ff22e0bc080dfa763cb503e8409"
-
-[[files]]
-file = "mods/[殖民地附加] MineColonies_Compatibility-1.21.1-3.42.jar"
-hash = "77985a6a82fad5ebd754f31275fb6189f503125fdf11d34b6897f8d1e76a07ef"
-
-[[files]]
-file = "mods/[氪] krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar"
-hash = "05ebe849611daafe533fc57ed9b5156edfa9157ced04d38a7860b1e2075984b9"
-
-[[files]]
-file = "mods/[烟火凡人心] flavor_immersed_daily-2026.7.5-neoforge-1.21.1.jar"
-hash = "7f897b6bead0d56402691005d6e59614ecfa502f4e95fd6ca8ac3130cf6cf933"
-
-[[files]]
-file = "mods/[烟花苦力怕] CreeperFirework-neoforge-2.2.0.jar"
-hash = "f047bbfaab90995c51311464d9a277008d92c3689be26cc2400f28aef813a760"
-
-[[files]]
-file = "mods/[物品栏整理] clientsort-neoforge-2.2.2+1.21.1.jar"
-hash = "2844d0f7374ebfb0dd0782a675ef53311bb3cedacb1cf6258c35025eb809225f"
-
-[[files]]
-file = "mods/[犀牛] rhino-2101.2.8-build.91.jar"
-hash = "1d53d962aa4dac54bcbb4f998c1845980cf194318f1d6b1580ea6ac15cce5ef3"
-
-[[files]]
-file = "mods/[玉 🔍] Jade-1.21.1-NeoForge-15.10.5.jar"
-hash = "067bb4b007e1d6f6b79f0afe99c91252aa825472b99a76d33a60d24442f9e92d"
-
-[[files]]
-file = "mods/[现代化修复] modernfix-neoforge-5.27.20+mc1.21.1.jar"
-hash = "6f367ea4002c39e3cfe27e0a0be1008880a4b35a8482a78a437cfb9d8ee38273"
-
-[[files]]
-file = "mods/[生活调味料：胡萝卜版] solcarrot-1.21.1-1.16.6.jar"
-hash = "ae3e73a08c8373fbee639b2feaf21c2e08caf9e4a44f8dfa610f44a5143f2fd1"
-
-[[files]]
-file = "mods/[神秘学] occultism-1.21.1-neoforge-1.224.2.jar"
-hash = "0f73d75ce41fa0e4feef8f5ec06ee59e2a5738481b1100120bdcf0065e56f823"
-
-[[files]]
-file = "mods/[禁用实验性设置警告] yeetusexperimentus-neoforge-87.0.0.jar"
-hash = "9117db8b5905abf18f64fdf8f8d8ca5a91c23abd0a7fa2c9986c21aa17d74e75"
-
-[[files]]
-file = "mods/[简单坟墓] simpletomb-1.21.1-1.4.4.jar"
-hash = "bb9f1ccf10d88648534ac6fa8d688c2b56713b2bc5e3475b7a5f3b527b7e1c76"
-
-[[files]]
-file = "mods/[精妙核心] sophisticatedcore-1.21.1-1.4.62.2079.jar"
-hash = "8b47600ebe5c74d57428d00f34d362e100da2308975a0f5899794fdb860bf0c0"
-
-[[files]]
-file = "mods/[精妙背包] sophisticatedbackpacks-1.21.1-3.25.65.1955.jar"
-hash = "57292dfbc56b7cf27d828bb64db28231b668af5804c965ff04d4eb02b00cd280"
-
-[[files]]
-file = "mods/[线缆传输] drivebywire-0.3.0.jar"
-hash = "256600adcd4c811dba480752d76048a053760038ff0a45b37d5d3a0164145f8f"
-
-[[files]]
-file = "mods/[结构化] structurize-1.0.832-1.21.1-snapshot.jar"
-hash = "be51434644a96c3b9d3db4e000d7e802c057a0e9bec98c919beb9492927489a5"
-
-[[files]]
-file = "mods/[网络音乐机] netmusic-1.5.1-neoforge+mc1.21.1.jar"
-hash = "54d5bd0a82af2d4e2b1cbe03d45fb2962d242ec6deca0e5b016d3092ce74dcdb"
-
-[[files]]
-file = "mods/[脚步声NeoForge版] PresenceFootsteps-1.21.1-1.12.0-beta.1-1.21NeoForge.jar"
-hash = "ded9ea8677f407cbf280b0ee33866ae70859a7c476ef0f60fd35a9be2ee9b91a"
-
-[[files]]
-file = "mods/[自动汉化更新] I18nUpdateMod-3.7.0-all.jar"
-hash = "66fc7f6debca5bfe6d7c6aa392f6e23a712dc018ae71cbb6e0b214ff6a28142d"
-
-[[files]]
-file = "mods/[自定义菜单界面] fancymenu_neoforge_3.9.9_MC_1.21.1.jar"
-hash = "23236908b3ef362e4a3bd48cf2610247ac9d974ba44003c509d70063471dec77"
-
-[[files]]
-file = "mods/[自然罗盘／生物群系指南针] NaturesCompass-1.21.1-3.4.0-neoforge.jar"
-hash = "0e249ac11b2f916c5570d9679e188da652fa5664ba9cdb7be5dc9ff69497539c"
-
-[[files]]
-file = "mods/[自然音效] AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar"
-hash = "07ee6fd24d8427ee079e2e376095b0ac92450b0153331f1575f8195e2c9cf90b"
-
-[[files]]
-file = "mods/[苹果皮] appleskin-neoforge-mc1.21-3.0.9.jar"
-hash = "38b48dd6231341c9f964ce6e42c57ec866c6cc8f72bec938390a59bafb3922df"
-
-[[files]]
-file = "mods/[输入法冲突修复] IMBlocker-5.5.4-neoforge+1.20.6-1.21.8.jar"
-hash = "08c5581bda0ab0fbfdbb10c51102685b403f64b0e712517c4b2d918b2c83cea3"
-
-[[files]]
-file = "mods/[远视] farsight-1.21.1-5.1.jar"
-hash = "741851d107e0e105da6efc863bb1e787a2ab57b70b7086daeee0b325d20afae2"
-
-[[files]]
-file = "mods/[通用拼音搜索] jecharacters-1.21.1-neoforge-4.5.27.jar"
-hash = "5bbaa5d3cda81e3b3ffe8e86a11208db2037daf25c7cb4ac976c304158341454"
-
-[[files]]
-file = "mods/[钠] sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar"
-hash = "21f46a795137d7049a6736cea1e56837c633da532dd9fcb178363a8df771a4ea"
-
-[[files]]
-file = "mods/[铁氧体磁芯] ferritecore-7.0.3-neoforge.jar"
-hash = "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8"
-
-[[files]]
-file = "mods/[铁魔法] irons_spellbooks-1.21.1-3.16.2.jar"
-hash = "82b650aff7636c8fa88da0e4cfea008c229bb62843274678ee932f6b4ec74430"
-
-[[files]]
-file = "mods/[铁魔法前置] irons_lib-1.21.1-2.1.0.jar"
-hash = "3d0ad1003d6edeaad2500b9922267b4192d2c603cdd846fda339b168f4deff72"
-
-[[files]]
-file = "mods/[铁魔法前置] player-animation-lib-forge-2.0.4+1.21.1.jar"
-hash = "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92"
-
-[[files]]
-file = "mods/[键位冲突显示] Controlling-neoforge-1.21.1-19.0.5.jar"
-hash = "cc525fb6b030d9e4d33176983f278919e17b33935e2ca568929bdfa98f2b44a0"
-
-[[files]]
-file = "mods/[鼠标手势] MouseTweaks-neoforge-mc1.21-2.26.1.jar"
-hash = "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b"
-
-[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "3d8f918c52e27d4c640f78c67c0a51a2ddbe4e3703c149e8ed9461f43bd5fedd"
 metafile = true
@@ -4034,10 +3730,6 @@ hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
 
 [[files]]
-file = "mods/architectury-13.0.11-neoforge.jar"
-hash = "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb"
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
@@ -4046,10 +3738,6 @@ metafile = true
 file = "mods/attributefix.pw.toml"
 hash = "f0edb6932d0c3f97338cf660763ff43bc5febdf0eb5edeca3a1927c20f14e296"
 metafile = true
-
-[[files]]
-file = "mods/blockui-1.0.211-1.21.1-snapshot.jar"
-hash = "5dfffc80c057b4d36123bd5f5cad9f32f86896a9dd993ea4a3ecad315cabd77e"
 
 [[files]]
 file = "mods/blockui.pw.toml"
@@ -4062,10 +3750,6 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
-file = "mods/bookshelf-neoforge-1.21.1-21.1.81.jar"
-hash = "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76"
-
-[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
@@ -4074,10 +3758,6 @@ metafile = true
 file = "mods/c2me.pw.toml"
 hash = "d796a61a385f70084c5fb5586fc9cbe44ff47e8e27924dff8f541330123380b5"
 metafile = true
-
-[[files]]
-file = "mods/caelus-neoforge-7.0.1+1.21.1.jar"
-hash = "432a645557f29de159d9edde2fd109f8e3b32ff30895b4fede04ee5f1a1a682f"
 
 [[files]]
 file = "mods/caelus.pw.toml"
@@ -4100,17 +3780,9 @@ hash = "1575c645b68ae61e6848cc26ededa351235dd4bb5e58aef19b78c02c79afd447"
 metafile = true
 
 [[files]]
-file = "mods/cloth-config-15.0.140-neoforge.jar"
-hash = "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4"
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
-
-[[files]]
-file = "mods/colorwheel-neoforge-1.2.9+mc1.21.1.jar"
-hash = "9259e4adb5b091fe2bd60e57be7f0b2ec9872f1c97ff6d2ed3bb2a9a5ec6407f"
 
 [[files]]
 file = "mods/colorwheel-patcher.pw.toml"
@@ -4123,10 +3795,6 @@ hash = "3f99808dda6b83374cea1d478e2688c69af71a7381b176d0a7df50d219e44ca9"
 metafile = true
 
 [[files]]
-file = "mods/colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar"
-hash = "2285a5154739d2e9889d979e3bdf54104b56d7966dac8d43367305e5aaedcce8"
-
-[[files]]
 file = "mods/connector.pw.toml"
 hash = "c19c2e5a0b485648c801c4663ece3596d7e3bd1164f9065f27242346655066bf"
 metafile = true
@@ -4135,10 +3803,6 @@ metafile = true
 file = "mods/construction-wand-kots.pw.toml"
 hash = "8f88f0197bab619a5f15e69a9675d1de32e07dbe2664ff1e35e40b04bde01f33"
 metafile = true
-
-[[files]]
-file = "mods/continuity-3.0.0+0.0.1+1.21.1.neoforge-all.jar"
-hash = "324b943f53b7843c225426ea0f4313f6bba8d4218f0dd76b872d55bcf22aa227"
 
 [[files]]
 file = "mods/continuity.pw.toml"
@@ -4324,14 +3988,6 @@ hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
 metafile = true
 
 [[files]]
-file = "mods/fzzy_config-0.7.5+1.21+neoforge.jar"
-hash = "2541de28017911e0640493b24b701dc7f4aaad14b496a3232658c832feb92390"
-
-[[files]]
-file = "mods/geckolib-neoforge-1.21.1-4.9.2.jar"
-hash = "5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba"
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "65ac18556f91ebb4f303a39731e93e94ffa94ddc690b0fbf35346bdcb3b05919"
 metafile = true
@@ -4387,17 +4043,9 @@ hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
 metafile = true
 
 [[files]]
-file = "mods/konkrete_neoforge_1.9.9_MC_1.21.jar"
-hash = "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd"
-
-[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
-
-[[files]]
-file = "mods/kotlinforforge-5.12.0-all.jar"
-hash = "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139"
 
 [[files]]
 file = "mods/krypton-fnp.pw.toml"
@@ -4423,10 +4071,6 @@ metafile = true
 file = "mods/melody.pw.toml"
 hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
-
-[[files]]
-file = "mods/melody_neoforge_1.0.10_MC_1.21.jar"
-hash = "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871"
 
 [[files]]
 file = "mods/minecolonies-tweaks.pw.toml"
@@ -4457,10 +4101,6 @@ metafile = true
 file = "mods/multi-piston.pw.toml"
 hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
 metafile = true
-
-[[files]]
-file = "mods/multipiston-1.2.58-1.21.1.jar"
-hash = "7ca26db4648589b7f76694c249d5096c0c0afb7615fe6adf9f638c6c825c15e7"
 
 [[files]]
 file = "mods/natures-compass.pw.toml"
@@ -4523,10 +4163,6 @@ hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
 
 [[files]]
-file = "mods/prickle-neoforge-1.21.1-21.1.11.jar"
-hash = "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167"
-
-[[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
 metafile = true
@@ -4557,17 +4193,9 @@ hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
 
 [[files]]
-file = "mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar"
-hash = "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24"
-
-[[files]]
 file = "mods/rpl.pw.toml"
 hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
 metafile = true
-
-[[files]]
-file = "mods/sable-neoforge-1.21.1-2.0.3.jar"
-hash = "da6c3b66238586603d1dcaa2afb012d36815fbce0a2d5938fbb2936701d42279"
 
 [[files]]
 file = "mods/sable.pw.toml"
