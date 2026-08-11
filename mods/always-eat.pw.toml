@@ -1,0 +1,13 @@
+name = "Always Eat"
+filename = "AlwaysEat-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yasvseig/versions/8qtPbGnq/AlwaysEat-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "7793bb497f0acfbc1eb3e5d4748036b52c5673e1db5ba736841bb2d8395cc78de52bfdc61fd6155524d36f2e402b260dd85e23b61382981adee49917987f30a8"
+
+[update]
+[update.modrinth]
+mod-id = "yasvseig"
+version = "8qtPbGnq"

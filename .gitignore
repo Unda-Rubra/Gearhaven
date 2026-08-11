@@ -22,3 +22,4 @@ patchouli_data.json
 ponders_watched.json
 usercache.json
 usernamecache.json
+*.DS_Store

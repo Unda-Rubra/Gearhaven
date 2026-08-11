@@ -1,0 +1,13 @@
+name = "Winefox's Spellbooks"
+filename = "winefoxs_spellbooks-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6c28292b7740f85c4a56047e2e695c190d7440cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8607005
+project-id = 1379815

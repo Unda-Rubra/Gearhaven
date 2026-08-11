@@ -1,0 +1,13 @@
+name = "Fast Recipe Search"
+filename = "fastrecipesearch-1.21.1-1.7-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qExiachl/versions/Fvdw6FwZ/fastrecipesearch-1.21.1-1.7-neoforge.jar"
+hash-format = "sha512"
+hash = "a03c23695bc2b76f25c924cd56d9b81fc9fcbd8a4810f3bf61a3faa92ade80402e6dcdfaa6b708523ce0b742718c62bc9f7ca960004de8b73c3019f6301d8587"
+
+[update]
+[update.modrinth]
+mod-id = "qExiachl"
+version = "Fvdw6FwZ"

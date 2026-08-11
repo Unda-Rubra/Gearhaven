@@ -1,0 +1,13 @@
+name = "Yes Steve Model"
+filename = "ysm-2.6.5-neoforge+mc1.21.1-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/86xjpqqS/versions/HZWaR0LY/ysm-2.6.5-neoforge%2Bmc1.21.1-release.jar"
+hash-format = "sha512"
+hash = "75a655fe095565d949aeea5e333f3e1501443b796b250aeabe1ac230c47a99cbac6b7470956b4458f5c982c2cf8a17f170b53e0805b4f4079874fc9975b10dce"
+
+[update]
+[update.modrinth]
+mod-id = "86xjpqqS"
+version = "HZWaR0LY"

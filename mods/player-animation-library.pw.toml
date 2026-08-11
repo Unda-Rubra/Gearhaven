@@ -1,0 +1,13 @@
+name = "Player Animation Library"
+filename = "PlayerAnimationLibNeoforge-1.1.5+mc.1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ha1mEyJS/versions/ReDTdA0C/PlayerAnimationLibNeoforge-1.1.5%2Bmc.1.21.1.jar"
+hash-format = "sha512"
+hash = "804619fcd138b935ff276ec28f1f60e1ce8b8cf136f3f5b46f39eee8f6839897883e43eb84c93cc51520f88aebde269a6675df3ea5479765ca1e0d8afca6d7e8"
+
+[update]
+[update.modrinth]
+mod-id = "ha1mEyJS"
+version = "ReDTdA0C"

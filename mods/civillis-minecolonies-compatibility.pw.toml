@@ -1,0 +1,13 @@
+name = "Civillis Minecolonies Compatibility"
+filename = "civilis_minecolonies-1.0.5-universal-1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/RTqoTuFA/versions/3KdNBItB/civilis_minecolonies-1.0.5-universal-1.21.1.jar"
+hash-format = "sha512"
+hash = "83880bc324b11d73d674ea8cfb50e05c22d1fe7a4d4475f5482666fc80dd079fb3a826bedb0d89d766b6293d98b38eae6c9dcb857e510832279f7f3212ee7b9e"
+
+[update]
+[update.modrinth]
+mod-id = "RTqoTuFA"
+version = "3KdNBItB"
