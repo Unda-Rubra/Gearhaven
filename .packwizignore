@@ -2,7 +2,6 @@
 *.DS_Store
 *.mrpack
 /LICENSE
-*.zip
 /assets/*
 /.vscode/*
 /.idea/*
@@ -28,3 +27,6 @@
 *.gradle
 /gradle.properties
 *.bat
+/packwiz-linux
+/packwiz-macos
+/packwiz.exe
