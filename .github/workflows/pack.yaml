@@ -1,4 +1,4 @@
-name: pack
+name: Packwiz Export
 on: [push]
 
 jobs:
@@ -8,24 +8,24 @@ jobs:
         os: [macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - name: checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: make packwiz executable
+      - name: Make Packwiz executable
         run: chmod +x ./packwiz-macos
 
-      - name: export modrinth
+      - name: Export modpack artifacts
         run: |
           ./packwiz-macos mr export
           ./packwiz-macos cf export
 
-      - name: capture export artifacts - modrinth
+      - name: Capture export artifacts - Modrinth
         uses: actions/upload-artifact@v4
         with:
           name: Artifacts-Modrinth
           path: ./**.mrpack
 
-      - name: capture export artifacts - curseforge
+      - name: Capture export artifacts - CurseForge
         uses: actions/upload-artifact@v4
         with:
           name: Artifacts-CurseForge
