@@ -226,7 +226,7 @@ Packwiz 会依据项目类别把元数据放到相应目录。直接把 ZIP 放�
 
 - 新增、修改、移动或删除 `config/` 中的文件；
 - 修改 KubeJS 脚本、纹理、数据包或 KubeJS 配置；
-- 手动增删 JAR、资源包、光影包、蓝图、菜单素材等；
+- 手动增删 JAR、资源包、光影包、菜单素材等；
 - 手动删除 `.pw.toml`；
 - 解决合并冲突后重建索引。
 
@@ -247,7 +247,7 @@ Packwiz 会依据项目类别把元数据放到相应目录。直接把 ZIP 放�
 - `.packwizignore`：决定哪些文件不写入 `index.toml`、不进入导出包。
 - `.gitignore`：决定哪些本地文件不提交到 Git。
 
-两者互不替代。本仓库的 `.packwizignore` 已排除 `README.md`、`PACKWIZ_GUIDE.md`、`.github/`、项目级 `/assets/`、开发工具目录、Packwiz 可执行文件以及导出的 `.mrpack`/ZIP；所以这些项目文档和构建工具不会被塞进玩家实例。本仓库的 `.gitignore` 则排除了日志、缓存、存档、下载目录等运行时文件。
+两者互不替代。本仓库的 `.packwizignore` 已排除 `README.md`、`PACKWIZ_GUIDE.md`、`.github/`、项目级 `/assets/`、开发工具目录、Packwiz 可执行文件以及导出的 `.mrpack`/ZIP；所以这些项目文档和构建工具不会被塞进玩家实例。本仓库的 `.gitignore` 暂时未排除任何文件，若后期有需要可视情况追加。
 
 若某个文件“已经提交到 Git，却没有进入安装包”，先检查 `.packwizignore`；若某个文件“在本地存在，却无法提交”，先检查 `.gitignore`。
 
@@ -307,7 +307,6 @@ Gearhaven/
 ├── shaderpacks/              # 直接随包分发的光影包
 ├── options.txt               # 整合包提供的客户端默认选项
 ├── fancymenu_data/           # FancyMenu 数据
-├── blueprints/               # 模组使用的自定义蓝图/结构数据
 ├── .github/workflows/pack.yaml # GitHub Actions 导出流程
 ├── packwiz.exe               # Windows x86-64 CLI
 ├── packwiz-macos             # macOS x86-64 CLI
@@ -352,9 +351,9 @@ Gearhaven/
 - 运行时日志位于实例的 `logs/kubejs/`；该目录不应提交。遇到脚本报错时记录完整错误、脚本路径和行号。
 - `kubejs/assets/` 会进入游戏；仓库根目录的 `/assets/` 当前被 `.packwizignore` 排除，只适合项目文档或宣传素材。不要把二者混淆。
 
-### 资源包、光影、菜单和蓝图
+### 资源包、光影和菜单
 
-`resourcepacks/`、`shaderpacks/`、`fancymenu_data/`、`blueprints/` 都是随整合包复制到相同相对路径的内部文件。修改后运行 `refresh`。对于 ZIP、图片、音频、模型等二进制资源，提交前检查：
+`resourcepacks/`、`shaderpacks/`、`fancymenu_data/`都是随整合包复制到相同相对路径的内部文件。修改后运行 `refresh`。对于 ZIP、图片、音频、模型等二进制资源，提交前检查：
 
 - 是否有明确的整合包再分发许可；
 - 是否确实需要直接打包，而不是改用 `.pw.toml` 下载；
