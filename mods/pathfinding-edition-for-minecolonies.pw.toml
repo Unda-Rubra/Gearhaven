@@ -1,6 +1,7 @@
 name = "Pathfinding Edition For MineColonies"
 filename = "colonypathingedition-1.21.1-1.0.5-ALPHA-12.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
