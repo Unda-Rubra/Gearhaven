@@ -1,6 +1,7 @@
 name = "MineColonies"
 filename = "minecolonies-1.1.1285-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
