@@ -1,13 +1,13 @@
-name = "SmartBrainLib"
+name = "SmartBrainLib (Forge/Fabric/Quilt)"
 filename = "SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
-side = "server"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PuyPazRT/versions/O5EpeqI3/SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
-hash-format = "sha512"
-hash = "bfc76f6fd8c388d01b80601ad1b826f6b3f5ec5ea915e5725af129561e6bc4a10890975e6f6d2a0348d842c13042dcf1a9d0a1574fba76bce60119bee76e2dc2"
+hash-format = "sha1"
+hash = "0310135a01eeceefbc7f1ab017498a65f3ad6836"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "PuyPazRT"
-version = "O5EpeqI3"
+[update.curseforge]
+file-id = 7055149
+project-id = 661293

@@ -4057,7 +4057,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "73a9733e1015ce75e6cd93a2f5d4286a8c6282534584500ea01ca9a5bfb34d8e"
+hash = "fc7e266d5bd161fc69f504fbcd047e501c7ba57e3e399d1671f8ae5cb6a27f59"
 metafile = true
 
 [[files]]
@@ -4187,7 +4187,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartbrainlib.pw.toml"
-hash = "27c6365bdc19eff05f3231bff86a4f09b2d584fed40de92d67c00b4cbd52862a"
+hash = "1a610a4a75169fbebeece88a8e611fa0ad432b8661754a519166b23a6d643e36"
 metafile = true
 
 [[files]]
