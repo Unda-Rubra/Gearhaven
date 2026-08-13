@@ -64,6 +64,35 @@ Get-Item .\pack.toml
 
 如果 `pack.toml` 不存在，说明当前目录不对；不要继续执行添加、删除或刷新命令。
 
+## 仓库与游戏实例必须分离
+
+> [!CAUTION]
+> **绝对不要把本 Git 仓库直接克隆、移动或整体链接到某个启动器实例的 `.minecraft` 目录，也不要把仓库本身设置为游戏目录。**
+
+二者职责不同：
+
+- Git 仓库是整合包的**源代码和构建输入**，包含 `pack.toml`、`index.toml`、`.pw.toml` 与 Packwiz 可执行文件。
+- 启动器实例是**运行和测试环境**，包含启动器下载的真实 JAR，以及游戏生成的日志、缓存、存档、崩溃报告和个人设置。
+
+把仓库当作 `.minecraft` 会产生以下问题：
+
+- 游戏每次启动都会改写或生成大量文件，污染 Git 工作区；
+- 一次 `packwiz refresh` 可能把未被忽略的日志、缓存、存档甚至个人数据写进索引；
+- `.pw.toml` 不是可加载的模组 JAR，所以仓库目录本身并不是完整实例；
+- 很难区分团队基线配置与本机运行时改动，也容易误提交整个 `mods/` 或 `saves/`。
+
+推荐把三类目录并列分开：
+
+```text
+工作目录/
+├── Gearhaven/                    # Git 仓库；只保存源文件
+├── Gearhaven-builds/             # 本地导出的 .mrpack / CurseForge ZIP
+└── 启动器实例/Gearhaven-Dev/
+    └── .minecraft/               # 实际运行、调试和生成配置的目录
+```
+
+文件只在确认测试结果后，按明确的相对路径从测试实例**选择性复制回仓库**；不要同步整个 `.minecraft`。
+
 ## 各系统如何运行 Packwiz
 
 仓库已经附带三个 Packwiz x86-64 可执行文件：
@@ -283,6 +312,46 @@ Packwiz 会依据项目类别把元数据放到相应目录。直接把 ZIP 放�
 
 若某个版本因兼容性原因不能升级，可用交互式 `packwiz pin` 固定；解除固定使用 `packwiz unpin`。固定原因应写在提交或 PR 描述中，避免后来的人误以为它可以安全更新。
 
+## 本地导出整合包
+
+本地导出使用与 GitHub Actions 相同的核心命令。导出前先在仓库根目录刷新索引：
+
+```powershell
+.\packwiz.exe refresh
+```
+
+推荐把产物写到仓库旁边的独立目录，避免把大文件留在 Git 工作区。Windows PowerShell：
+
+```powershell
+New-Item -ItemType Directory -Force ..\Gearhaven-builds | Out-Null
+
+.\packwiz.exe mr export `
+  -o ..\Gearhaven-builds\Gearhaven-local.mrpack
+
+.\packwiz.exe cf export `
+  -o ..\Gearhaven-builds\Gearhaven-local-CurseForge.zip
+```
+
+macOS；Linux 将可执行文件名替换为 `packwiz-linux`：
+
+```bash
+mkdir -p ../Gearhaven-builds
+
+./packwiz-macos refresh
+./packwiz-macos mr export \
+  -o ../Gearhaven-builds/Gearhaven-local.mrpack
+./packwiz-macos cf export \
+  -o ../Gearhaven-builds/Gearhaven-local-CurseForge.zip
+```
+
+- `mr export` 生成可导入 Modrinth App、Prism Launcher 等启动器的 `.mrpack`。
+- `cf export` 生成 CurseForge 格式 ZIP；默认导出客户端内容。需要筛选服务端模组时可使用 `cf export --side server`，但仍要单独审核配置和客户端专属内部文件。
+- `-o` 明确指定输出路径。省略后产物会写到仓库根目录，不推荐这样做，也不要提交本地导出包。
+- 导出可能需要下载另一平台的模组文件。必须检查完整终端输出；出现 `failed to download` 时，即使命令最后生成了文件，也不能直接分发。
+- 导出包是测试和分发产物，不是新的编辑源。始终以 Git 仓库中的 Packwiz 源文件为准。
+
+导出后，在启动器中创建一个全新的测试实例并导入产物。不要覆盖唯一的开发实例或个人存档；最终验证应覆盖首次安装、完整启动以及本次改动对应的游戏内场景。
+
 ## 本仓库目录结构
 
 ```text
@@ -293,7 +362,7 @@ Gearhaven/
 ├── .gitignore                # 不进入 Git 的本地/运行时文件规则
 ├── mods/
 │   ├── *.pw.toml             # CurseForge/Modrinth 等外部文件元数据
-│   └── *.jar                 # 少数直接随包分发的本地模组
+│   └── *.jar                 # 直接作为 override 随包分发的内部 JAR
 ├── config/                   # 常规模组配置
 ├── defaultconfigs/           # 新世界的服务端配置默认值
 ├── kubejs/
@@ -324,6 +393,37 @@ Gearhaven/
 - `[update.modrinth]` 或 `[update.curseforge]`：项目与版本标识。
 
 只有模组无法由受支持的平台或稳定直链管理时，才考虑提交原始 JAR。提交前确认许可证允许整合包再分发；二进制文件也会永久增大 Git 历史。
+
+#### 直接随包分发的 override JAR
+
+这里的 **override JAR** 指直接放在仓库 `mods/` 下的真实 `.jar`，而不是由 `.pw.toml` 描述并在安装时下载的模组。Packwiz 把它当作普通内部文件，与 `config/*.toml` 或 `kubejs/*.js` 的处理方式相同：
+
+```toml
+[[files]]
+file = "mods/example.jar"
+hash = "..."
+```
+
+它与 `.pw.toml` 在索引中的关键区别是：后者的条目包含 `metafile = true`，原始 JAR 没有该标记。
+
+这会带来几个重要结果：
+
+- `packwiz refresh` 只记录该 JAR 的路径和内容哈希；不会识别其中的模组 ID、版本或依赖。
+- `packwiz list` 只列出外部元数据，因此**不会显示原始 override JAR**。
+- `packwiz update`、`pin`、`unpin` 和交互式 `remove` 不会管理它；升级与删除都必须人工替换/删除 JAR，再运行 `refresh`。
+- 原始 JAR 没有 `side = "client"` / `"server"` 元数据，Packwiz 无法按目标端自动筛选，通常会把它作为 override 放入导出包。
+- Packwiz 不会按模组 ID 或文件哈希去重。一个原始 JAR、一个 `.pw.toml`，或者来自 CF/MR 的两份 `.pw.toml` 可以同时指向同一模组，最终造成重复加载。
+
+在导出的 `.mrpack` 或 CurseForge ZIP 中，这类内部文件通常位于 `overrides/mods/`。另外，Packwiz 无法自动把 Modrinth 项目映射成 CurseForge 项目，反之亦然；跨平台导出时，某些由 `.pw.toml` 管理的模组也可能被下载并写入目标包的 overrides。这不等于源仓库中存在原始 JAR，应回到仓库检查实际文件类型。
+
+团队规则：
+
+1. 首选 `mr add` 或 `cf add`，保留来源、版本、更新和依赖元数据。
+2. 平台不受支持但存在稳定直链时，优先考虑 `packwiz url add`，不要立即提交二进制。
+3. 只有私有模组、自研构建、无稳定下载来源或确有再分发需求时，才直接保存 JAR。
+4. 提交前确认许可证允许再分发，并在提交或 PR 中记录来源、版本、用途和无法使用 `.pw.toml` 的原因。
+5. **绝不把测试实例的整个 `mods/` 复制回仓库。**只复制经过确认的单个 override JAR，并先检查是否已有同模组 `.pw.toml`。
+6. 添加、替换或删除 JAR 后运行 `packwiz refresh`，再通过导出包验证它确实存在且只存在一份。
 
 ### `config/` 与 `defaultconfigs/`
 
@@ -362,16 +462,38 @@ Gearhaven/
 
 ## 推荐协作 SOP
 
-每个改动按以下顺序完成：
+> [!IMPORTANT]
+> **配置、KubeJS 脚本、纹理和其他内部文件的推荐编辑流程：**
+>
+> 1. **把当前整合包安装到启动器中的独立开发实例。**
+> 2. **直接在该实例的 `.minecraft` 中修改并反复测试。**
+> 3. **测试通过后，只把有意保留的改动复制回 Git 仓库，并整理成逻辑清晰的提交。**
+>
+> 这样无需每改一行配置或脚本就重新构建、重新安装整合包，同时能让 Git 工作区远离游戏运行时生成的噪声。
 
-1. 同步目标分支，确认工作区没有与本次任务无关的未提交改动。
-2. 一次只做一个逻辑改动：添加一个功能组、调整一组配置或修复一段脚本。
-3. 模组使用 `mr add` / `cf add`；内部文件放到正确目录。
-4. 运行 `packwiz refresh`，再运行 `packwiz list` 检查重复项和遗漏。
-5. 在干净测试实例中实际启动；涉及配方、世界生成、服务端或客户端专属内容时测试对应场景。
-6. 用 `git status` 和 `git diff` 检查将提交的文件。应同时包含实际改动、`index.toml`，以及 Packwiz 更新后的 `pack.toml`。
-7. 提交并推送；在 GitHub 上确认与该提交对应的 **Packwiz Export** 工作流变绿。
-8. 需要给队友测试时，从该次运行下载构建产物，不要把本地临时导出包提交进仓库。
+完整流程：
+
+1. 同步目标分支，确认仓库工作区没有与本次任务无关的改动。
+2. 使用本地导出包或 GitHub Actions Artifact，在启动器中创建/更新一个独立的 `Gearhaven-Dev` 测试实例。
+3. 首次启动一次，让模组在实例的 `.minecraft` 中生成所需配置。
+4. 在测试实例中调整 `config/`、`defaultconfigs/`、`kubejs/`、纹理、资源包、菜单素材等，并用 `/reload`、`F3+T` 或完整重启验证。
+5. 测试通过后，按相同相对路径把**有意修改的文件**复制回仓库，例如：
+
+   ```text
+   实例/.minecraft/config/example.toml
+     → 仓库/config/example.toml
+
+   实例/.minecraft/kubejs/server_scripts/recipes.js
+     → 仓库/kubejs/server_scripts/recipes.js
+   ```
+
+6. 不要复制 `logs/`、`cache/`、`crash-reports/`、`saves/`、下载缓存、个人账号/服务器信息，也不要整体复制实例的 `mods/`。
+7. 用 `git status` 和 `git diff` 逐项检查回写内容，移除游戏自动重排但与任务无关的配置变化。
+8. 按逻辑拆分提交，例如“新增配方”“调整客户端默认配置”“更新菜单纹理”，不要把所有实例变化塞进一个提交。
+9. 运行 `packwiz refresh` 和 `packwiz list`；若改动会进入整合包，提交中通常应同时包含实际文件、`index.toml` 与更新后的 `pack.toml`。
+10. 最后重新导出并导入一个干净实例，验证从零安装仍然成立；推送后再确认对应 GitHub Actions 运行成功。
+
+模组集合本身例外：最终添加或删除模组必须在仓库中通过 `mr add`、`cf add` 或 `remove` 完成。可以先在测试实例临时试装模组，但验证通过后应转成正确的 `.pw.toml`；除非满足 override JAR 规则，否则不要把试装 JAR 复制回仓库。
 
 CI 只执行导出，不启动 Minecraft。即使 Actions 显示成功，模组冲突、Mixin 崩溃、配方错误和世界损坏仍只能通过实际测试发现。
 
