@@ -621,14 +621,6 @@ file = "config/fancymenu/user_variables.db"
 hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
 
 [[files]]
-file = "config/farmersdelight-client.toml"
-hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
-
-[[files]]
-file = "config/farmersdelight-common.toml"
-hash = "0cc639f1ce8ab5e63f754ab41be3ab09398fd149de6d0b5edc476034e3ed8b06"
-
-[[files]]
 file = "config/farsight.json"
 hash = "3688db0c98f3f02fa58cfdba8e1881b3239adb6c1ab9ff5d7bfba5f13673ae40"
 
@@ -734,23 +726,23 @@ hash = "809b43a059a351726bf06c8484aaccd57b78ef9726d5043335f4ac03cbb7fa0f"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
-hash = "ea438fcf6868d97ba3d9f2f536b69b7f3e3e89b2906c83fe19d04701cd68abaf"
+hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
 
 [[files]]
 file = "config/jade/hide-entities.json"
-hash = "bb8df3e278aa57b79c365a13e1a43b5ae30041c1221b7efc3bdaca9f67e97a15"
+hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "45ec624732d048532277f53a9f70955698cf6c003267ed6fbd4590dddf118742"
+hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "e57173a9c02d14068ee985faea320d3845a7ca7d0567b7a6e992d2b19da7bbd5"
+hash = "9386afbe8290017b5048afefdb750883057c23ed34550db0525c8da7bf04ae18"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "7a6686376165596d2b679ab9a68ba623b459c1209c3cdf1915092e2ee4a81707"
+hash = "b0058ab5d3f776f0b0f98af5a18455d4bf6f3147865bb5b54aeb9954095c7c58"
 
 [[files]]
 file = "config/jecharacters-client.toml"
@@ -822,7 +814,7 @@ hash = "d4a280df566eed4e5dea1f7a2824066d93c86564b987aee05ac0a6861462373a"
 
 [[files]]
 file = "config/lithostitched.json"
-hash = "d72d1f36bf63434d25c9ded78f2ff8940924f74ea2b2e6bafedd09f4b82a204e"
+hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
 
 [[files]]
 file = "config/minecolonies-client-1.toml.bak"
@@ -883,6 +875,10 @@ hash = "f7301ac5c174fd4958b6a7bbca7d6211da2f4ac83f85ef87e55461a2110f9044"
 [[files]]
 file = "config/muhc-common.toml"
 hash = "0181f09bd00353c577c34787f012fdedf434bf46386e76405997e4b69c5a3589"
+
+[[files]]
+file = "config/natures_spirit-common.toml"
+hash = "49fe724c77d5e7caf4fe75f9644d8dcd865ada8ef0e695905bbe38432c3ffa00"
 
 [[files]]
 file = "config/naturescompass-client.toml"
@@ -1051,6 +1047,14 @@ hash = "76b1f7a16add77265a6fffabb06b6cd2730be3d6959c425c62ebe1f1532e14e8"
 [[files]]
 file = "config/structurize-server.toml"
 hash = "52289b88d7f9891b47ac21551fef6481345d5e695ddbf348f0a9f3304bf136cc"
+
+[[files]]
+file = "config/tectonic.json"
+hash = "deb101e05d57c5f144f76fe6a822c2661009d5b3ad669171bd1c8792a7b31642"
+
+[[files]]
+file = "config/terrablender.toml"
+hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
 
 [[files]]
 file = "config/test-config.json"
@@ -3756,11 +3760,6 @@ hash = "cb8a41809bf6773c3259df1cee6041bce1719ca46fa9295d21288887f4ebc781"
 metafile = true
 
 [[files]]
-file = "mods/civillis.pw.toml"
-hash = "1bcd94e583a132e518f14f624038143f31fb79a40522a7e8570cb801a2eaa009"
-metafile = true
-
-[[files]]
 file = "mods/clientsort.pw.toml"
 hash = "e2694ba4f1e163a7a2755c7723d412fb8307a5b21c2281be4e165ea474268a93"
 metafile = true
@@ -3926,11 +3925,6 @@ hash = "f42299bccab26d1db2d0c2921e1bda89664c94c249289b641fc5016b351771de"
 metafile = true
 
 [[files]]
-file = "mods/farmers-delight.pw.toml"
-hash = "fb00546284ecd779286968f4d90802cf45c587860a856964ad8a8bb827f328d4"
-metafile = true
-
-[[files]]
 file = "mods/farsight.pw.toml"
 hash = "0c65f1c123dc49f1d14d965964fca86fbd53bb7648ece54e241834011eec020d"
 metafile = true
@@ -4007,7 +4001,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "087a42c3f98511846c6445351aa5fd6dea009707df2275794bf166fda0cd1d51"
+hash = "9c4b4fefc2854f74a200ce07c0c7c9440a9b6ec1752b9283469f070cc0752b6c"
 metafile = true
 
 [[files]]
@@ -4041,8 +4035,8 @@ hash = "5554dc0e228bb51557313dd1b0c9493c9e575390a6713a8f6415d3aede09cce0"
 metafile = true
 
 [[files]]
-file = "mods/lithosphere.pw.toml"
-hash = "2911ceec12532d48c0affa5ea168a35154b2b7f6c7777391b0da268af64525dd"
+file = "mods/lithostitched.pw.toml"
+hash = "d48948d8dbdf7ca96c4bc34be4aed08313d3a7707acab9ed12fb894b470bce58"
 metafile = true
 
 [[files]]
@@ -4083,6 +4077,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "2d33555b1fd37949378fc7f2373ed2dd186dd41eef4367e4c52ad802cc02e99d"
+metafile = true
+
+[[files]]
+file = "mods/natures-spirit.pw.toml"
+hash = "28c76f903da7d4b27f029d195b0873c0c826080022f8bbb1377d8c83ccd3e47e"
 metafile = true
 
 [[files]]
@@ -4213,6 +4212,16 @@ metafile = true
 [[files]]
 file = "mods/structurize.pw.toml"
 hash = "bb591da2ddd98a05164106bf239c19bba2402eccd872831575b3653e0d9fafba"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "003fc4f0346ef9fc643692f85236055b820830a531bc284275c3cc7a4ce7c8b3"
+metafile = true
+
+[[files]]
+file = "mods/terrablender-neoforge.pw.toml"
+hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
 metafile = true
 
 [[files]]
