@@ -69,11 +69,6 @@
   "yes_steve_model": {
     "model_info": true
   },
-  "minecolonies_compatibility": {
-    "crop.age": true,
-    "postbox.requested": true,
-    "stash.requested": true
-  },
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true
