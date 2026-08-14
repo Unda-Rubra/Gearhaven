@@ -144,6 +144,16 @@ Packwiz 对两个平台使用简称：
 - `cf` = CurseForge
 - `add` = 添加；`install` 也是同一命令的别名。本项目文档统一使用 `add`。
 
+### 本项目的平台优先级
+
+本项目以 **Modrinth 为主发布格式**，同时保留 CurseForge 兼容导出。选择模组来源时遵循：
+
+1. 同一个、同版本且字节完全一致的文件同时存在于两个平台时，使用 `mr add` 管理 Modrinth 来源。
+2. Modrinth 没有对应文件时，才使用 `cf add`。这类文件在 `.mrpack` 中会被 Packwiz 预下载到 overrides，属于预期行为。
+3. 不要为了“同时支持两边”而在同一个 `.pw.toml` 中手工添加两套 `[update.modrinth]` / `[update.curseforge]`。Packwiz 的 `[download]` 只有一个实际来源，而 `update` 会遍历更新器；双更新器可能互相覆盖下载元数据。
+
+Packwiz 不会自动判断 CurseForge 和 Modrinth 上的两个项目是否相同。因此，新增模组前应先查 Modrinth；如果只能从 CurseForge 添加，接受它进入 Modrinth overrides，不能通过重复添加两份元数据解决。
+
 ### 通过名称搜索
 
 ```powershell
@@ -346,6 +356,7 @@ mkdir -p ../Gearhaven-builds
 
 - `mr export` 生成可导入 Modrinth App、Prism Launcher 等启动器的 `.mrpack`。
 - `cf export` 生成 CurseForge 格式 ZIP；默认导出客户端内容。需要筛选服务端模组时可使用 `cf export --side server`，但仍要单独审核配置和客户端专属内部文件。
+- 本项目的 GitHub Actions 只发布 `.mrpack`；CurseForge CI 步骤已注释。仍可按上面的 `cf export` 命令在本地生成兼容 ZIP，但由于大量主源来自 Modrinth，该 ZIP 可能明显更大。
 - `-o` 明确指定输出路径。省略后产物会写到仓库根目录，不推荐这样做，也不要提交本地导出包。
 - 导出可能需要下载另一平台的模组文件。必须检查完整终端输出；出现 `failed to download` 时，即使命令最后生成了文件，也不能直接分发。
 - 导出包是测试和分发产物，不是新的编辑源。始终以 Git 仓库中的 Packwiz 源文件为准。
@@ -518,10 +529,10 @@ CI 只执行导出，不启动 Minecraft。即使 Actions 显示成功，模组�
 
 1. 检出对应提交；
 2. 赋予 `packwiz-macos` 执行权限；
-3. 执行 `packwiz-macos mr export` 和 `packwiz-macos cf export`；
-4. 上传两个 Artifact：
-   - `Artifacts-Modrinth`
-   - `Artifacts-CurseForge`
+3. 执行 `packwiz-macos mr export`；
+4. 上传唯一启用的 Artifact：`Artifacts-Modrinth`。
+
+工作流中的 CurseForge 导出与上传步骤目前已注释，不会生成 `Artifacts-CurseForge`。需要 CurseForge 兼容包时，只能按[本地导出整合包](#本地导出整合包)一节手动运行 `cf export`。
 
 当前工作流没有 `workflow_dispatch`，所以页面上不一定有 **Run workflow** 手动运行按钮。正常触发方式是推送提交。
 
@@ -533,13 +544,9 @@ CI 只执行导出，不启动 Minecraft。即使 Actions 显示成功，模组�
 4. 在运行列表中，选择目标**分支和 commit** 对应的记录，不要只凭“最新”二字判断。
 5. 等待绿色对勾。黄色圆点表示仍在运行，红色叉号表示构建失败。
 6. 打开该次运行，在页面底部找到 **Artifacts** 区域。
-7. 按启动器选择：
-   - 使用 Modrinth App、Prism Launcher 或支持 `.mrpack` 的启动器：下载 **Artifacts-Modrinth**。
-   - 使用 CurseForge 格式导入：下载 **Artifacts-CurseForge**。
-8. GitHub 下载下来的是一个“Artifact 外层 ZIP”。先解压这一层：
-   - Modrinth Artifact 内部才是要导入的 `.mrpack`；
-   - CurseForge Artifact 内部还有真正要导入的 CurseForge `.zip`。
-9. 在启动器中选择“从文件导入/Import from file”，选中内层 `.mrpack` 或内层 CurseForge ZIP。不要把包内容手动散放进一个旧实例。
+7. 下载 **Artifacts-Modrinth**。
+8. GitHub 下载下来的是一个“Artifact 外层 ZIP”。先解压这一层，内部才是要导入的 `.mrpack`。
+9. 在启动器中选择“从文件导入/Import from file”，选中内层 `.mrpack`。不要把包内容手动散放进一个旧实例。
 
 Artifact 默认保留 90 天，仓库设置可以修改期限；需要的测试包应及时下载。具体规则见 [GitHub 官方文档：下载工作流 Artifact](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/download-workflow-artifacts)。
 
@@ -553,12 +560,9 @@ gh run list --workflow pack.yaml
 
 # 下载指定运行的 Modrinth 产物
 gh run download RUN_ID -n Artifacts-Modrinth
-
-# 下载指定运行的 CurseForge 产物
-gh run download RUN_ID -n Artifacts-CurseForge
 ```
 
-`gh run download` 会把指定 Artifact 解压到当前目录；仍应检查其中真正的 `.mrpack` 或 CurseForge ZIP，并核对运行对应的 commit。
+`gh run download` 会把指定 Artifact 解压到当前目录；仍应检查其中真正的 `.mrpack`，并核对运行对应的 commit。
 
 ### 构建失败时
 

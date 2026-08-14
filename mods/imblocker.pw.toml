@@ -3,11 +3,11 @@ filename = "IMBlocker-5.5.4-neoforge+1.20.6-1.21.8.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4910d4aeab9e5d23b4facb592a18136e64caf3e5"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/WMDesFsZ/versions/gom4UX66/IMBlocker-5.5.4-neoforge%2B1.20.6-1.21.8.jar"
+hash-format = "sha512"
+hash = "db3d5aa66c2037645db83dac512476edb48d02e2c6ee9f30ce17265c817ff297154f8f65b0076620b83d0bfd7d398c0409d9e37e9f8fdad0707cf16bfa485f50"
 
 [update]
-[update.curseforge]
-file-id = 8167852
-project-id = 483760
+[update.modrinth]
+mod-id = "WMDesFsZ"
+version = "gom4UX66"

@@ -3,11 +3,11 @@ filename = "geckolib-neoforge-1.21.1-4.9.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/8BmcQJ2H/versions/tPkJmim6/geckolib-neoforge-1.21.1-4.9.2.jar"
+hash-format = "sha512"
+hash = "c91012b16cc40c8f48f69b78cb8e2e5c006486ae2431fbd289dfc01be7a4217294becea22d83a155d6b32b3969450df871352a3695e1452168b84f41355f7b9e"
 
 [update]
-[update.curseforge]
-file-id = 8350073
-project-id = 388172
+[update.modrinth]
+mod-id = "8BmcQJ2H"
+version = "tPkJmim6"

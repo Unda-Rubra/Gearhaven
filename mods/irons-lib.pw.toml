@@ -3,11 +3,11 @@ filename = "irons_lib-1.21.1-2.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "70fba64d12b6ff9553580e52101d989c89297797"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/9nfaJPtX/versions/sQyzhxuH/irons_lib-1.21.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "63f4c2575ac6e031e28d36f87a84d823ebfad389aee49f5315cdf3cfd47af3fa3b8f546af986e48dba72466a0d63c08158b885fc415497c237361ca57dc8e99b"
 
 [update]
-[update.curseforge]
-file-id = 8364894
-project-id = 1492763
+[update.modrinth]
+mod-id = "9nfaJPtX"
+version = "sQyzhxuH"

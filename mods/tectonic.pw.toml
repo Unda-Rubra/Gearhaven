@@ -3,11 +3,11 @@ filename = "tectonic-3.0.26-neoforge-21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3114da043f1b54fe32b2801266a27a8f477d7325"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/vNrkxC3z/tectonic-3.0.26-neoforge-21.1.jar"
+hash-format = "sha512"
+hash = "7f91f69f6985cf5d0533dc0a645286f40b9625e0a67e405969d153497923a9b2e6b88e436b017eb969a1fbe28d02850d87152a06f2c01dc55779814912d770ef"
 
 [update]
-[update.curseforge]
-file-id = 8360847
-project-id = 686836
+[update.modrinth]
+mod-id = "lWDHr9jE"
+version = "vNrkxC3z"

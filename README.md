@@ -18,6 +18,6 @@ Gearhaven 是 Unda Rubra 维护的 Minecraft 整合包。本仓库保存整合�
 - 从 Modrinth / CurseForge 搜索、添加、删除和更新模组；
 - `packwiz refresh`、目录结构、配置文件和 KubeJS 约定；
 - Git 协作流程；
-- 从 GitHub Actions 下载 Modrinth 与 CurseForge 构建产物。
+- 从 GitHub Actions 下载 Modrinth 构建产物，并在需要时本地导出 CurseForge 兼容包。
 
 每次推送都会触发 [`Packwiz Export`](.github/workflows/pack.yaml)，生成供测试和导入启动器的构建产物。Actions 成功只表示导出完成；模组兼容性仍需通过实际启动和游戏内测试验证。

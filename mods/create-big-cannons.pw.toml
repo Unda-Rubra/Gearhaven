@@ -3,11 +3,11 @@ filename = "createbigcannons-5.11.7+mc.1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c90ee0b2142e2c58d233e150cb3a24c7cb07eb2d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar"
+hash-format = "sha512"
+hash = "24f414dfbb973a0f4d9c9b2aa059edc7bed4d23b4f39eb1f7d23a1d6b437e3b5d64cca6e4b85ff7eb2815743fa711d54ad652bffe96d1eb1234544716006440d"
 
 [update]
-[update.curseforge]
-file-id = 8303106
-project-id = 646668
+[update.modrinth]
+mod-id = "GWp4jCJj"
+version = "bOiDu0LS"
