@@ -1,6 +1,6 @@
 name = "Natural Temperature"
 filename = "naturaltemperature-1.1.8-NEOFORGE-MC-1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/QZt2fevq/versions/MDzIYcD3/naturaltemperature-1.1.8-NEOFORGE-MC-1.21.1.jar"

@@ -1665,7 +1665,7 @@ metafile = true
 
 [[files]]
 file = "mods/natural-temperature.pw.toml"
-hash = "1e8feefb469c64232d45d64f1b8e3a3a07afcbaaf4cfdda906df0d2823860289"
+hash = "d803c4740b065388db1ac7b84ccf682d46616a5d3f7fc1f1e16a0d03a44363e8"
 metafile = true
 
 [[files]]
