@@ -1,0 +1,28 @@
+#Xaero's World Map
+[xaeroworldmap]
+	Enable = true
+	SkipVanillaColorCheck = true
+
+#Xaero's Minimap
+[xaerominimap]
+	Enable = true
+	SkipVanillaColorCheck = true
+
+#touhou_little_maid
+[touhou_little_maid]
+	Enable = true
+
+#MineColonies
+[minecolonies]
+	Enable = true
+	# Default: 12000
+	# Range: 1 ~ 23999
+	AverageNightTime = 12000
+	# Default: 1000
+	# Range: -6000 ~ 6000
+	CheckSleepOffset = 1000
+
+#Domum Ornamentum
+[domum_ornamentum]
+	#Enable automatic snow-covered blocks and models.
+	Enable = true

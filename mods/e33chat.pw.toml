@@ -1,0 +1,13 @@
+name = "E33Chat"
+filename = "e33chat-NeoForge-1.21.1-2.3.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/onBSJreQ/versions/BddrDBdg/e33chat-NeoForge-1.21.1-2.3.9.jar"
+hash-format = "sha512"
+hash = "016a6a6e198548db5192787185135e18e3fc6cced55d7f038613eb6feedf6bcfbfd141c773b6897880254a1594d364359972e87e981442d46796546ff2b078e0"
+
+[update]
+[update.modrinth]
+mod-id = "onBSJreQ"
+version = "BddrDBdg"

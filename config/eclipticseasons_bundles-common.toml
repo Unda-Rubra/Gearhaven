@@ -1,0 +1,7 @@
+#为作物、植物和蘑菇增加季节与湿度要求。
+#新增雪覆盖草方块、蕨类和椰子叶的变体，提升视觉效果。
+[es_x_ns]
+	#Enable compat package es_x_ns
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false

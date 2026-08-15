@@ -1,0 +1,13 @@
+name = "SeasonHud"
+filename = "seasonhud-neoforge-1.21.1-2.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VNjUn3NA/versions/ESqfvcM9/seasonhud-neoforge-1.21.1-2.0.8.jar"
+hash-format = "sha512"
+hash = "4398a74749524c18d1144298ad447a2d01b45b67a271591880a13080c3755a6cf93c271d86d0c82b24f04e655f4fff235bef0bd3694ebc98a6e385a76de40819"
+
+[update]
+[update.modrinth]
+mod-id = "VNjUn3NA"
+version = "ESqfvcM9"

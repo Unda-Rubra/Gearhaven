@@ -1,0 +1,123 @@
+#Equatorial distance is the distance between the spawn point and the equator, measured in blocks.The spawn point is located in the northern hemisphere, equidistant between the north pole and the equator.Since the Minecraft world is immense, the poles are defined as the zones with the lowest possible temperature to the north and south.Beyond those zones, the temperature remains consistently low until the world border.You will find the north pole 1 equatorial distance (eqd) north, the equator 1 eqd south, and the south pole 3 eqd south.Temperate zone is between 0 and 1/3 eqd north and 2 eqd south and 7/3 eqd southDeserts will spawn around 1/3 eqd south, and jungles at 2/3 eqd.In the north, cold biomes begin around 1/3 eqd north, and very cold biomes at 2/3 eqd.Some references: Earth-like: eqd 10000000, Mars-like: eqd 5000000, Moon-like: eqd 2500000, Ceres-like: eqd 750000, Default: eqd 50000, very small: eqd 10000, The line: eqd 100, Frostpunk: eqd 0
+# Default: 50000.0
+# Range: 0.0 ~ 6.0E12
+equatorial_distance = 15000.0
+#Set to true if you want the biomes' distribution pattern to loop until world border after the very cold regions
+looping_world = true
+#0: DEFAULT, 1: SIMPLIFIED, 2: LINEAR, 3: CUSTOM CIRCULAR, 4: CIRCULAR, 5: CUSTOM BANDED, 6: BANDED, 7: CUSTOM CIRCULAR 6, 8: CIRCULAR 6 , 9: CUSTOM SQUARE , 10: SQUARE. You can see examples on the official modrinth page: https://modrinth.com/mod/natural-temperature/gallery
+# Default: 0
+# Range: 0 ~ 105
+generation_mode = 0
+#Positive values will move the equator to the north, if you want the equator to be at 0 set this value the same as your equatorial_distance
+# Default: 0.0
+# Range: -6.0E12 ~ 6.0E12
+equator_offset = 0.0
+#Set it to true to ignore the biome distribution pattern of the surface, useful for mods that generate underground biomes like terralith
+randomize_underground = false
+#Randomize the underground below this y
+# Default: 45.0
+# Range: -6.0E12 ~ 6.0E12
+randomize_underground_below_y = 45.0
+# 0: random (total randomness, except under jungles), 1: half_random (some degree of similarity with biomes on the surface), 2: random_plus_jungle (total randomness, include under jungles)
+# Default: 1
+# Range: 0 ~ 2
+underground_randomization_type = 1
+#True will use banded world generation also in the other dimensions
+multidimensional_bands = false
+#A percentage for heating or cooling the planet. Range (-100.0 , 100.0)
+# Default: 0.0
+# Range: -100.0 ~ 100.0
+global_temperature_modifier_percentage = 0.0
+#A percentage to mitigate the planet climate (this reduce extreme climatic regions). Range (0.0 , 100.0)
+# Default: 0.0
+# Range: 0.0 ~ 100.0
+global_temperature_mitigation_percentage = 0.0
+#This will add a wider transition band between the desert and the jungle in the default mode, this is useful if some modded biomes are not spawning
+extra_bands = false
+#This is a multiplier that will magnify the waving of the climatic bands, the proportion of the wave will stay the same, but it will change the scale of the wave
+# Default: 2.0
+# Range: -6.0E12 ~ 6.0E12
+wave_magnification = 2.0
+# Default: 0.0
+# Range: -1.0 ~ 8.0
+temperature_zone_1 = 0.0
+# Default: 8.0
+# Range: -1.0 ~ 8.0
+temperature_zone_2 = 8.0
+# Default: 1.0
+# Range: -1.0 ~ 8.0
+temperature_zone_3 = 1.0
+#(Range -1.0 , 1.0 ) These parameters are used to customize some of the modes, 1.0 are very hot zones, -1.0 are very cold zone. 8.0 will randomize the zone
+# Default: -1.0
+# Range: -1.0 ~ 8.0
+temperature_zone_4 = -1.0
+# Default: 8.0
+# Range: -1.0 ~ 8.0
+temperature_zone_5 = 8.0
+# Default: -1.0
+# Range: -1.0 ~ 8.0
+temperature_zone_6 = -1.0
+#(Range -1.0 , 1.0 ) These parameters are used to customize some of the modes, 1.0 are very humid zones, -1.0 are very dry zone. 8.0 will randomize the zone
+# Default: 8.0
+# Range: -1.0 ~ 8.0
+humidity_zone_1 = 8.0
+# Default: 8.0
+# Range: -1.0 ~ 8.0
+humidity_zone_2 = 8.0
+# Default: 8.0
+# Range: -1.0 ~ 8.0
+humidity_zone_3 = 8.0
+# Default: 8.0
+# Range: -1.0 ~ 8.0
+humidity_zone_4 = 8.0
+# Default: 8.0
+# Range: -1.0 ~ 8.0
+humidity_zone_5 = 8.0
+# Default: 8.0
+# Range: -1.0 ~ 8.0
+humidity_zone_6 = 8.0
+#Positive values will move the humidity bands to the west, negative ones to the east
+# Default: 0.0
+# Range: -6.0E12 ~ 6.0E12
+info_humidity_offset = 0.0
+#(Range 1.0 , 100.0 ) These are used to customize the coverage of the bands in modes 5 and 6. The sum does not necessarily have to be 100. I used real life references
+# Default: 17.0
+# Range: 1.0 ~ 100.0
+percentage_coverage_zone_1 = 17.0
+# Default: 24.0
+# Range: 1.0 ~ 100.0
+percentage_coverage_zone_2 = 24.0
+# Default: 13.0
+# Range: 1.0 ~ 100.0
+percentage_coverage_zone_3 = 13.0
+# Default: 10.0
+# Range: 1.0 ~ 100.0
+percentage_coverage_zone_4 = 10.0
+# Default: 22.0
+# Range: 1.0 ~ 100.0
+percentage_coverage_zone_5 = 22.0
+# Default: 14.0
+# Range: 1.0 ~ 100.0
+percentage_coverage_zone_6 = 14.0
+#This will enable a humidity (or vegetation) distribution in bands perpendicular to the temperature distribution. It works on simplified mode and linear mode
+enable_humidity_bands = false
+#This is a quarter of the distance between two zones of maximum humidity
+# Default: 1000.0
+# Range: -6.0E12 ~ 6.0E12
+humidity_bands_width = 1000.0
+#ID of the custom mode to use when generation_mode = 101
+custom_mode_id_1 = "default"
+#ID of the custom mode to use when generation_mode = 102
+custom_mode_id_2 = "default"
+#ID of the custom mode to use when generation_mode = 103
+custom_mode_id_3 = "default"
+#ID of the custom mode to use when generation_mode = 104
+custom_mode_id_4 = "default"
+#ID of the custom mode to use when generation_mode = 105
+custom_mode_id_5 = "default"
+#This will enable or disable the gui button on main menu
+show_gui_button = true
+#How much natural temperature influences the generation of the world in percentage. Works best in mode 5 if you are willing to adjust the values a little. I suggest not lowering it below 80%
+# Default: 100.0
+# Range: 0.0 ~ 100.0
+natural_temperature_influence = 100.0

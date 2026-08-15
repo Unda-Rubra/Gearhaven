@@ -1,0 +1,13 @@
+name = "Natural Temperature"
+filename = "naturaltemperature-1.1.8-NEOFORGE-MC-1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/QZt2fevq/versions/MDzIYcD3/naturaltemperature-1.1.8-NEOFORGE-MC-1.21.1.jar"
+hash-format = "sha512"
+hash = "f5ef419e3f4aa233cf702e374b274a0ea10c8c1f7f5fb6450490c05c1773eb61fd2eccea792d2dfd1d7e8bd0a1178d9c0015105e75206b0f808cac9c71055de7"
+
+[update]
+[update.modrinth]
+mod-id = "QZt2fevq"
+version = "MDzIYcD3"

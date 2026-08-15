@@ -1,0 +1,14 @@
+#E33Chat server settings
+#Send recent chat history to players when they join
+history_enabled = false
+#Make the head-menu teleport with /tpa (request) instead of /tp
+use_tpa = false
+#Message-format templates for public chat; empty list = disabled (heuristic guards only).
+#Placeholders: {prefix} {display_name} {name} {sep} {content}. Example: "[{display_name}]: {content}"
+#Exactly one {content} (any position); one name placeholder; first match wins.
+chat_templates = []
+#Message-format templates for private chat (whisper); empty list = disabled.
+#Placeholders: {sender} {target} {prefix} {display_name} {sep} {content}. Example: "{sender} → {target}: {content}"
+whisper_templates = []
+#Log failed template matches and parse diagnostics to the client chat log
+template_debug = false
