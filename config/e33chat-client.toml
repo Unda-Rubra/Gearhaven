@@ -1,0 +1,125 @@
+#E33Chat client settings
+[general]
+	#Color theme: DARK (default) or LIGHT
+	#Allowed Values: DARK, LIGHT
+	theme = "DARK"
+	#Enable the custom chat overlay (disable to restore vanilla chat)
+	enabled = true
+	#Show an unread red dot on the HUD chat icon
+	red_dot = true
+	#Hide the HUD chat icon (including the red dot)
+	hide_chat_icon = false
+	#Chat screen open/close animation
+	animation = true
+	#Verbose message-pipeline logging for troubleshooting (writes chat text to latest.log)
+	debug_log = false
+	#Chat panel width in physical screen pixels (800-1600, independent of GUI scale and aspect ratio)
+	# Default: 1000
+	# Range: 800 ~ 1600
+	panel_width = 1000
+	#Enable gaussian blur effect behind the chat panel background
+	blur_enabled = true
+	#Chat panel background opacity percentage (0-100). 0 = fully transparent, 100 = fully opaque
+	# Default: 80
+	# Range: 0 ~ 100
+	panel_opacity = 50
+	#Render system messages as chat bubbles
+	system_chat_as_bubble = false
+	#Collapse consecutive identical messages into one bubble with a counter
+	anti_spam = true
+	#Keep per-world chat history (restored when you rejoin)
+	chat_history = false
+	#Delete history files older than this many days on world join (0 = keep forever)
+	# Default: 0
+	# Range: 0 ~ 365
+	history_retention_days = 0
+	#Minutes between time separators in the chat list (0 = off, 1-60)
+	# Default: 5
+	# Range: 0 ~ 60
+	time_separator_minutes = 5
+	#Keep typed text in the input box when the chat closes, restoring it on reopen
+	preserve_input = true
+	#Interpret & color/format codes as color in YOUR OWN outgoing bubble (local only). The raw & is sent unchanged (never §), so it never kicks; color plugins color it for everyone, plain servers show literal & to others. Off by default so normal text like 'B&B' isn't colored locally
+	color_codes = false
+	#Hide players matching these wildcard patterns from the sidebar whisper list (comma-separated, * = wildcard, e.g. Islot_*, *[NPC]*)
+	sidebar_hide_patterns = []
+	#Blocked players: their messages vanish entirely — vanilla chat, bubbles, banners and sounds (comma-separated exact names)
+	blocked_players = []
+
+[bubble]
+	#Your bubble color (hex RRGGBB)
+	own_color = "#1E90FF"
+	#Other players' bubble color (hex RRGGBB)
+	other_color = "#4A4A4A"
+	#Bubble corner radius (0 = square, max 10)
+	# Default: 4
+	# Range: 0 ~ 10
+	corner_radius = 4
+
+[text]
+	#Your text color (hex RRGGBB)
+	own_color = "#FFFFFF"
+	#Other players' text color (hex RRGGBB)
+	other_color = "#FFFFFF"
+
+[quick_chat]
+	#Quick chat phrase list
+	phrases = []
+
+[sound]
+	#Master volume for all notification sounds (0-100)
+	# Default: 80
+	# Range: 0 ~ 100
+	sound_volume = 80
+	#Play a notification sound for system messages
+	sound_system = false
+	#Play a notification sound for private / whisper messages
+	sound_whisper = true
+	#Play a notification sound for public chat messages
+	sound_public = false
+
+[mention]
+	#Show a notification banner when you are @mentioned (phone-style slide-in)
+	banner_enabled = true
+	#Pop a banner for system messages (deaths/joins/broadcasts).
+	system_banner_enabled = true
+	#How long the notification banner stays visible (seconds, 2-10)
+	# Default: 4
+	# Range: 2 ~ 10
+	banner_duration = 4
+	#Play a notification sound when you are @mentioned or quoted
+	sound_enabled = true
+	#Only trigger @mention notifications when preceded by @ symbol (otherwise bare name also triggers)
+	require_at = true
+	#Show a notification banner for incoming private / whisper messages
+	whisper_banner = true
+	#Notify (sound + banner) when you @ yourself — testing aid
+	own_mention_notify = false
+	#Notify (sound + banner) when you quote yourself — testing aid
+	own_quote_notify = false
+	#Notify (sound + banner) when you whisper yourself (manual /msg) — testing aid
+	own_whisper_notify = false
+	#Banner corner radius (0 = square, max 10)
+	# Default: 6
+	# Range: 0 ~ 10
+	banner_corner_radius = 6
+	#Banner horizontal offset in px (negative = left). Nudge to avoid HUD overlaps (e.g. Jade).
+	# Default: 0
+	# Range: -1000 ~ 1000
+	banner_offset_x = 0
+	#Banner vertical offset in px (negative = up). Nudge to avoid HUD overlaps (e.g. Jade).
+	# Default: 0
+	# Range: -1000 ~ 1000
+	banner_offset_y = 0
+	#Chat panel/sidebar open-close animation style: SLIDE, FADE, ZOOM or NONE
+	#Allowed Values: SLIDE, FADE, ZOOM, NONE
+	panel_anim_style = "SLIDE"
+	#Notification banner appear/leave animation style: SLIDE, FADE, ZOOM or NONE
+	#Allowed Values: SLIDE, FADE, ZOOM, NONE
+	banner_anim_style = "SLIDE"
+	#Popup panel open animation style (settings/emoji/quick-chat/search): SLIDE, FADE, ZOOM or NONE
+	#Allowed Values: SLIDE, FADE, ZOOM, NONE
+	popup_anim_style = "FADE"
+	#New message bubble enter animation style (slide up + fade, staggered): SLIDE, FADE, ZOOM or NONE
+	#Allowed Values: SLIDE, FADE, ZOOM, NONE
+	message_anim_style = "FADE"

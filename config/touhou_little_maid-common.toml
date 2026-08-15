@@ -49,7 +49,7 @@
 	#The max number of animals around when the maid breeds animals
 	# Default: 50
 	# Range: 6 ~ 65536
-	FeedAnimalMaxNumber = 50
+	FeedAnimalMaxNumber = 20
 	#Maid can switch models freely
 	MaidChangeModel = true
 	#Maid can only play gomoku with her owner
@@ -126,7 +126,7 @@
 	# Range: > 0
 	MaidFairySpawnProbability = 70
 	#The following dimension do not spawn maid fairy
-	MaidFairyBlacklistDimension = ["minecraft:the_nether", "minecraft:the_end", "twilightforest:twilight_forest"]
+	MaidFairyBlacklistDimension = ["minecraft:the_nether", "minecraft:the_end", "twilightforest:twilight_forest", "minecraft:overworld"]
 	#Loss power point after player death
 	# Default: 1.0
 	# Range: 0.0 ~ 5.0
@@ -162,13 +162,13 @@
 
 [vanilla]
 	#Whether to replace the vanilla slime model with the yukkuri.
-	ReplaceSlimeModel = true
+	ReplaceSlimeModel = false
 	#Whether to replace the vanilla xp orb texture with the point items.
-	ReplaceXPTexture = true
+	ReplaceXPTexture = false
 	#Whether to replace the vanilla totem texture with the life point.
-	ReplaceTotemTexture = true
+	ReplaceTotemTexture = false
 	#Whether to replace the vanilla bottle of xp texture with the point items.
-	ReplaceXPBottleTexture = true
+	ReplaceXPBottleTexture = false
 
 [render]
 	EnableCompassTip = true
@@ -209,7 +209,7 @@
 	#Allowed Values: PLAYER2, ALIYUN, SILICONFLOW, TENCENT
 	STTType = "PLAYER2"
 	#The name of the microphone device, empty is default
-	STTMicrophone = ""
+	STTMicrophone = "主声音捕获驱动程序"
 	#The range of search when chatting with the maid
 	# Default: 12
 	# Range: 1 ~ 256
