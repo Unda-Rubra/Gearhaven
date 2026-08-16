@@ -8,7 +8,7 @@
 	# Range: 5 ~ 20000
 	MinChunkCompileWarningTime = 1000
 	#Visual effect: Surface water appears to be covered by a thin, cosmetic layer of ice.
-	FrozenWater = false
+	FrozenWater = true
 	#If true, the thin ice layer on water can be broken by players/entities.
 	FrozenWaterBreakable = true
 	#Prevents the visual frozen water effect in areas with high light levels.
@@ -50,7 +50,7 @@
 	#[Sodium/Embeddium] Render snow layers inside snow-connected fences only when in a snowy state.
 	SnowInFenceOnlySnowy = false
 	#[Sodium/Embeddium] Render an additional snow layer on blocks that already use the snowy model.
-	ExtraSnowLayer = false
+	ExtraSnowLayer = true
 	#[Sodium/Embeddium] Maxmum number of additional snow layer on blocks.
 	# Default: 2
 	# Range: 0 ~ 8
