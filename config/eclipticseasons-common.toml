@@ -101,11 +101,11 @@
 	#The horizontal detection radius for the Greenhouse.
 	# Default: 32
 	# Range: 5 ~ 256
-	GreenHouseMaxDiameter = 32
+	GreenHouseMaxDiameter = 64
 	#The vertical detection height for the Greenhouse.
 	# Default: 10
 	# Range: 3 ~ 128
-	GreenHouseMaxHeight = 10
+	GreenHouseMaxHeight = 32
 	#Probability (per tick) that greenhouse crops fail to grow due to low light levels.
 	# Default: 2000
 	# Range: 0 ~ 10000
@@ -243,6 +243,6 @@
 	#Aligns snowfall schedules based on three broad climate zones (Warm, Temperate, and Cold) instead of per-biome.
 	RegionalSnowTime = false
 	#Enforces original Vanilla temperature and precipitation settings to prevent other mods from creating extreme environmental values.
-	VanillaBiomeClimateSettings = true
+	VanillaBiomeClimateSettings = false
 	#When enabled, rivers are no longer treated as ignored climate zones. This reduces performance overhead but may result in less natural weather transitions near riverbanks.
-	IndependentRiverWeather = false
+	IndependentRiverWeather = true

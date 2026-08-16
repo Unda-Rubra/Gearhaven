@@ -542,11 +542,11 @@ hash = "4ff61b4be9aa39de21d40603808c79f0bd8ccf8e0eff5ad6abac392d8027ab92"
 
 [[files]]
 file = "config/eclipticseasons-client.toml"
-hash = "a3faea61f3298c373076ef6f3e5cdefb71d83d12372e1ad161349e66043ce936"
+hash = "b050b36875577171d84de3fb9d269ac5e239785ef3f9081196bbd0aa2f19af59"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "1d1d1b0778d7eae09ceee9c89f007d4f3b7da8bc5240a617eb1f0dbebae08486"
+hash = "7d1298c8d0776ba381ea0dd1cced011a8fbee8d6094b7d1c7092e06c1a3b960f"
 
 [[files]]
 file = "config/eclipticseasons-mixins.toml"
@@ -1243,6 +1243,466 @@ hash = "5d22ad90f620cb5e162c2dcbe5249ddfae417740c34670942c98890c3f05848c"
 [[files]]
 file = "kubejs/config/web_server.json"
 hash = "096fc046057504cb1dcb7c456b3a084a624eb1feff50b6acf080b574bf86d362"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/badlands.json"
+hash = "373aa165aeada618c912ae54a2e22224a0a8efab9145b29f035f9c9fb18fe95c"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/bamboo_jungle.json"
+hash = "efc53ced38a85a6027efc3aca5fca21264abd2a634cd56da5546033c620cd9a7"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/basalt_deltas.json"
+hash = "a4c1a53a0608b17bb5dd81b0fa2c307185c53374422851ac90109b32c957ca54"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/beach.json"
+hash = "eb256ecd80412a07dcab8fa2f1a87774a895f332327bca8626d9ee39ff808575"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/birch_forest.json"
+hash = "bcea5903a67e5eb971a868b806aa9961b98a1045c02d8a584a5be2f55bddb4d9"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/cherry_grove.json"
+hash = "a99862c493766bd4f870ca2b2f5cba27a66e5dc172a31e099e7e77e7df3d8350"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/cold_ocean.json"
+hash = "b96ff8ede4e7a07ed8b9048acf81b4aa0e180371c96571ee9806d4ed0cacf281"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/crimson_forest.json"
+hash = "50f92721ba5717727514c27ee6eceee2da4b516eb2073123035ee30b3f016df9"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/dark_forest.json"
+hash = "c11e5fea0dc4721023cc579e9f76fc436dfb18acb0dd790079710feaab7b8371"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_cold_ocean.json"
+hash = "6081450d80cec718bdade08e14b353e934820381279e45fbfd2866e386c0af56"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_dark.json"
+hash = "5e9d424a54330759a69a60261a4cd2db41d6f3e01d3dbb643c882a29c1996b38"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_frozen_ocean.json"
+hash = "d99aed7a37103f7c16c672870edd2caca86ccab523699050edab2e61942f9669"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_lukewarm_ocean.json"
+hash = "aa01f9832f893a979f65ab0189ca79040bd12df19a6784fdf2dd9cc0ef2e1b86"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_ocean.json"
+hash = "357a2272ed714207da0e73341c5d94c9491242d3e04d4216bb7b654d65d704fd"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/desert.json"
+hash = "e28798c892b9b4aead076344db226c3b4aaef25ba34a5c4c600c035a81a1633c"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/dripstone_caves.json"
+hash = "792a86b2e3448238331afa9a309990af89a7e2aa5fae6862d369074441582b54"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/end_barrens.json"
+hash = "ecfefbbc830e6a38a2e477d9150e03239dab02fce4855f95ab83c6eb21a7f8d5"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/end_highlands.json"
+hash = "edafe2f82e25c9b072120d70c7956cbf74c4425a19395d5c4bf71682e70785ad"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/end_midlands.json"
+hash = "ecfefbbc830e6a38a2e477d9150e03239dab02fce4855f95ab83c6eb21a7f8d5"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/eroded_badlands.json"
+hash = "373aa165aeada618c912ae54a2e22224a0a8efab9145b29f035f9c9fb18fe95c"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/flower_forest.json"
+hash = "2a42bfffb78e3b4199cde997b2c74c9501e6fda2c8c4c24e8d7cd01991485830"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/forest.json"
+hash = "79920550ec292e126fd66535aef777fa771da78610f6d8d0baa400ed5e949d07"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/frozen_ocean.json"
+hash = "48c356f7d5be949f140dcc322ffba7dbadc58720453f3ddf2055933b1cb57634"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/frozen_peaks.json"
+hash = "7b6974aa09f3fd84963cede9b5855b9b346841f0cc3da7010aaec38b38150c5b"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/frozen_river.json"
+hash = "033382f4a03fb81f52436fffd19b219549e190b44297ce8063fb1d207cfe8f31"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/grove.json"
+hash = "242e101f8ff49913a53363915137b2707a18e83c04b9cf34fa309a0228c59717"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/ice_spikes.json"
+hash = "0f8525478e8265988f634bb0b5e056b971f2250dbbf45af283bc17d3dec7eeea"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/jagged_peaks.json"
+hash = "170522036b977525a2aceb6466a8d6f2950f14445fec1bc833f0039cfa1534cb"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/jungle.json"
+hash = "9cea2f8a8aad1788db31adc5f93d03393617683c717a98132bde14b4f98b7134"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/lukewarm_ocean.json"
+hash = "eaa5aba63bfbee9be5f587bcd5110b235dd9211c46c854b31f88e34a1ce5302a"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/lush_caves.json"
+hash = "6c4f4cb13a88485839c314643fceb572a3a408bbe8c3d8b2044d84b87d5d4937"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/mangrove_swamp.json"
+hash = "9109e8af2cd5fb1336124e7d76f43cb4273e7499825e2ad230cf853d55b057c2"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/meadow.json"
+hash = "be063385840e1b9512744ed8af5a15d3913c7a62970dabd1b9cfaadc2659a9a7"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/mushroom_fields.json"
+hash = "4ffa820136cca80e7cfde6f0575d4eeb4e5a35602c244fc7cc20a417271a642e"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/nether_wastes.json"
+hash = "5dbbb2b273d16d420f94cdf7ed33e8be2f657ced6eceea29450a06b812e8be57"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/ocean.json"
+hash = "508030aa26fc79958180430da0c03fce8cc1f00a2c60ce03c01c1378736405be"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/old_growth_birch_forest.json"
+hash = "d85272c98c24b88a3f430c242e3ce65093bb03f242e86d6e865c2222dfac118f"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/old_growth_pine_taiga.json"
+hash = "6dc623973119ff3f7115509acee2a89c4b93f46c01400a11e1b34de41cf755cc"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/old_growth_spruce_taiga.json"
+hash = "4b5cd3b6f0e1921947f4e4fa7a4a246477dd162d9189e81b55130be29d8da2f5"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/plains.json"
+hash = "aac994b2d16d30c0a2fb9145dba9720c07a86fbe36cb0ad337563c1ee94d4351"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/river.json"
+hash = "1e7dacd44675441c3df69f741be034796d5c4d0db2642821f42feb14526e313c"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/savanna.json"
+hash = "303fa17f127f53125281ab2e24f9729e9813d7f1a2fb4d89544e2cced56a0947"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/savanna_plateau.json"
+hash = "0681fdbcc19a551c549f5472919f4f20a4f4917517d67d0baa54a8ad47596783"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/small_end_islands.json"
+hash = "286c65a4a3ed56eb254ae4cfdae92e0fbc85e02a8e13397680b82c57b587c7fb"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_beach.json"
+hash = "2c8df5e6ca6fbd2821001c233d1accaa06719ad18bcfa8bd7c5e007f5ebfef26"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_plains.json"
+hash = "1a953a142a293b3bbe638bfb812d0347dc68885ce8a8a9f082630edf5ac68046"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_slopes.json"
+hash = "120bedd93b1ad8573fead2c40db6b74bcc80fe01268dbc835663438880c2bb4d"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_taiga.json"
+hash = "899eb59aa770491ef0935307d9d8579aefa244c63dbe8519fa18bfb31d81653f"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/soul_sand_valley.json"
+hash = "e5d8584c8b379da2df74ca5798fd5fa91d0ef0df124ca81c57977f678df1b781"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/sparse_jungle.json"
+hash = "cd165eff001cac788d37ab5aac09bc4436c8c647e455939d1bc7869e8ca4ad22"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/stony_peaks.json"
+hash = "56650929118d2beb84e3541c325bd3f5b310f36081a74faea4c6fef329acee06"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/stony_shore.json"
+hash = "aa79a6d0536f6ae913c01d1473703411d58e230e0f02202db91a151eebe86dd4"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/sunflower_plains.json"
+hash = "fd3497ed59e07df1d9f1bc05a0150478e19d3b0eea0c9e7e3d6fdde2728c07bb"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/swamp.json"
+hash = "f19a5ef4d49550bac51dc7b50acc13b9897889e6f9080574afb17a2f1d2f5d7d"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/taiga.json"
+hash = "ca2e7354708c1da4eea039785dd6157a92c122bf1ee3b6abeea0058cccfd4d62"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/the_end.json"
+hash = "1ba929bff4c4c2456dcab29f902d195bb48e7dc0c1d92c449d47560e3bb162cd"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/the_void.json"
+hash = "9638a0d920ec2a12a7ad9e112503399d81550a70971e3c7c062ffdfafa21111e"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/warm_ocean.json"
+hash = "e18f0df52e1375c323928db209dafd714e70c9e9d33b64e1fdef5ff49be3a11f"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/warped_forest.json"
+hash = "96b9607dc5c678183f7c53e033644e953e31491e0d49decbee53ced71126de61"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/windswept_forest.json"
+hash = "de516ad1404104f2893e03f1a0fa9aef953bbb9ce54419f720ea18e49a0e9ac0"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/windswept_gravelly_hills.json"
+hash = "7abc2b5372b60d6d43163d07ba1491a2601b9af87ad21c8f1cc519df3ea55e8e"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/windswept_hills.json"
+hash = "7abc2b5372b60d6d43163d07ba1491a2601b9af87ad21c8f1cc519df3ea55e8e"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/windswept_savanna.json"
+hash = "36619afae019c3dfc93a86e988265c2992880589a39359ed97893eadd767bbef"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/wooded_badlands.json"
+hash = "91c40c1d0ec4a94d1b46f5ae0b8054cc4c555dbb7285562b9aec26650044cc3c"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/alpine_clearings.json"
+hash = "428f6aa002ffe9cc3031362ccd8b4c7a5d5cad64006ac8619abdae7572c2bc7f"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/alpine_highlands.json"
+hash = "27ce004cecc3111eef5608dd3e9e95c0aa498e1219b496e813ed2607868de510"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/arid_highlands.json"
+hash = "3931f05fc8d2163b57169edd22ac26a3cd1e3baba45eec6a2f38b1564ac76f4d"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/arid_savanna.json"
+hash = "41b6322542a6c88fb940c55d06e06a285e278a5f684b58d741ce171f6339c97a"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/aspen_forest.json"
+hash = "f78ea28083b39df30aecbb3219373ba7b38fe0c4464f963a02659f5607c33334"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/bamboo_wetlands.json"
+hash = "3a7955b25b876472d203b0d1acd0bb6859a07cd68fe9f5fd8c62f6638835f85a"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/blooming_dunes.json"
+hash = "5e79e76946eede4e28eaac2780ace214bed51c1ee45294b3f81101afd4e08d65"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/blooming_highlands.json"
+hash = "f63b43041af9cd11e532cf964446db49bc5763d0bbde7e2ef29f591330938e69"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/blooming_sugi_forest.json"
+hash = "11c23484305a50047564c473195e7e9f9487e8d9d6bac184d122a85575466ab1"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/boreal_taiga.json"
+hash = "7fa256aeefc123a6e63ae45ae71b5c84dfe402a79e2bd9244cb463877689fc93"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/carnation_fields.json"
+hash = "235ada73062566fc0bef14405f72077f4469388a8725bd343daf391affd15898"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/cedar_thicket.json"
+hash = "255f892ccd0841e4e1915227581f6741d7448af8bb7f14c8754d102c5770dea2"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/chaparral.json"
+hash = "3249cbf2d61e909e8571d2eda40042cf7bc43ddc1e0a54052b7cb775e7aebe70"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/coniferous_covert.json"
+hash = "47a55b3e35b1b45b61311ea78283be57c54158e20d273570dade1db2562a38d2"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/cypress_fields.json"
+hash = "b479e20c659139b862116eccdf4bcfd6a3966117f865242bad7052f5f1804b98"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/drylands.json"
+hash = "bc6e28379168d208f032151e1b7f04d527f2edcb7628b4d306b0a32f3a89b5cf"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/dusty_slopes.json"
+hash = "e91c36632eb029202c7e8018705f35163852f15243b3e2f3606aecce991b8caa"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/fir_forest.json"
+hash = "b876259b2ebfb960b7d2c3ae32920285ee05bf93be2407c729aedf4161bcab56"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/floral_ridges.json"
+hash = "1ee6b9194a43773e1b04191d6bf69b1ec90991e7994a9bd2679052ba0c480208"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/flowering_shrubland.json"
+hash = "f4bb2043ddea10a18dd8f0964827b39eb15c34d19220a4ea1290e57d49c80fca"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/golden_wilds.json"
+hash = "8aad9d5ebbbe2b3012bc29e5f75098e5817f98b624accc2fa1488f327e74fb89"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/heather_fields.json"
+hash = "74e6c4148eb18528f775143ca1e90d995c9eb82b33543610854a5f8fa06ddb8c"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/lavender_fields.json"
+hash = "6607a3e02aa1818b4706114c9e5456895a0ca81b9a4fdddad20b2a59cd239e3b"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/lively_dunes.json"
+hash = "c617147d5f78eb3ff513234599807e97f1bdcf763fbc2b637f8be339525ca7ea"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/maple_woodlands.json"
+hash = "150b300b7c256761db5a2bfa25c00dd516161911532b78b8d0d2befb55f2bfd7"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/marigold_meadows.json"
+hash = "95c96fb813209e07598aaf523a915062db1aa6492902a5178d00e1d26a0e2ba9"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/marsh.json"
+hash = "1efe6075d693f9e93bae7194b47fafc9bebd660a6e9986cec0c6750839cf1a73"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/oak_savanna.json"
+hash = "46b6d8a9bc4267daf81ada0d1fdb5bac95b43bcab1c0ae673240c7f776b12a72"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/prairie.json"
+hash = "46c858a4efb3698d3a9696d3dbe943a6c19b0c4dda37c255ae8ba5a7ea5d2601"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/red_peaks.json"
+hash = "a3c9fec1183e740810ea277ce30ac85e18045fb2458c2f7d05bd0519cb6f810c"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/redwood_forest.json"
+hash = "02049415b3d4524766ea6ca8e4dc579603d49e4e73e4ae63d1847c7da64e47d8"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/scorched_dunes.json"
+hash = "3282862d58d3db938e7d77cd304deebb4ed982bf0b5ba461ff5713b1d2569954"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/shrubby_highlands.json"
+hash = "6cd8512f442aecfab2f5395dad01aab9c7a6e3b01edd1c69d87d0c629ae8f84c"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/shrubland.json"
+hash = "b5b5434b10134e0ece85f50691d9ff6a2f1367523d18692849c6c9c1d18569ef"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/sleeted_slopes.json"
+hash = "6949995410cff290c24345b063a18ca72745cf169e2f622e002bfb106e4dda78"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/snowcapped_red_peaks.json"
+hash = "482d95b9219941474731d0f23846f829d7b5a3effbc02a1d6cbf1215a8351d4b"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/snowy_fir_forest.json"
+hash = "5aa3712bbe61f0ac1fd08794bc074ba6d29bb0336d2d34dac43e0a494e984e59"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/snowy_redwood_forest.json"
+hash = "19d4b002f94be395e8dbaa2df6b6332ab429cd8b46cb2be770f9100ad40def51"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/sparse_tropical_woods.json"
+hash = "0093c919e78042124a2fdfc1037fef66d82399af5d995749dd928f2c8df3f7e6"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/stratified_desert.json"
+hash = "01d8a2daf33ea87f0d1272576b7b71ab268181cd70b60e8391b7944302de4116"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/sugi_forest.json"
+hash = "9abc71e83832745245ef09670293def73eea733764a0defafa2341eb0ad7de4b"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/tropical_basin.json"
+hash = "16b71be5d21a45e4f9e0576ab2893ca92b4067b0e75719f9ee1033123ed94d5e"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/tropical_shores.json"
+hash = "ab1a8ca6f8fa048f0afd602b9c63d92a7c27e4f865561a9e6e202efe19b8a1bf"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/tropical_woods.json"
+hash = "070a70f302e71f23468155a7718dad5e41a9604d37995bbd3d19ced95fdf2df4"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/tundra.json"
+hash = "85576675c7bf8cd904d71d125900ab730607611468dd060945a1ae120bab019c"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/white_cliffs.json"
+hash = "14095c06b473a69b758acb72d22f2267119bf6daa38b7add4f1f19a1169d1ef3"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/windswept_sugi_forest.json"
+hash = "cbce75bf7c2070993d44dce00b54b40dde28922a721e7b5d0d0821853c908c1b"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/wisteria_forest.json"
+hash = "cd0cda230e67fb5de405ae22af222cb50266f8393ba63c94abdda2972a8a504b"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/wooded_drylands.json"
+hash = "493ce3813593f14c9c8435c61924510d53d5c2b6da4f1431b13724a45c200742"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/woody_highlands.json"
+hash = "c4c490425d881687a75cd717f987ef7e0f89c93d714d1547646222b4cc05cefa"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/xeric_plains.json"
+hash = "cbb86a233cbe19bdf6231deaabee8c11f2b2e65d3b180b355b9d19c4d4c112ff"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
