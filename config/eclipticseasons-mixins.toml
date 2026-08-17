@@ -5,6 +5,7 @@
 		MixinBlockState = true
 		MixinBlockStateBase = true
 		MixinBubbleColumnBlock = true
+		MixinCopperGrateBlock = true
 		MixinFallingBlock = true
 		MixinIBlockExtension = true
 		MixinLayeredCauldronBlock = true
@@ -36,27 +37,6 @@
 
 	[common.worldgen]
 		MixinSurfaceSystem = true
-
-	[compat.sodium]
-		Mixin_FoliageColorSource = true
-		Mixin_ColorSource = true
-		MixinAbstractBlockRenderContext = true
-		MixinBlockOcclusionCache = true
-		MixinBlockRenderer = true
-		MixinBlockRenderTask = true
-		MixinClonedChunkSection = true
-		MixinLevelSlice = true
-		MixinNeoForgeModelAccess = true
-
-	[compat.fabric_renderer_indigo]
-		MixinAbstractBlockRenderer = true
-		MixinBlockRenderer = true
-		MixinFabricVanillaModelEncoder = true
-
-	[compat.iris]
-		MixinBiomeUniforms = true
-		MixinBlockRenderTask = true
-		MixinIrisForgeHelpers = true
 
 [data]
 	MixinsDataProvider = true
@@ -109,3 +89,22 @@
 
 	[client.sound]
 		MixinMusicManager = true
+
+	[compat.fabric_renderer_indigo]
+		MixinAbstractBlockRenderer = true
+		MixinBlockRenderer = true
+		MixinFabricVanillaModelEncoder = true
+
+	[compat.iris]
+		MixinBiomeUniforms = true
+		MixinBlockRenderTask = true
+		MixinIrisForgeHelpers = true
+
+	[compat.sodium]
+		MixinAbstractBlockRenderContext = true
+		MixinBlockOcclusionCache = true
+		MixinBlockRenderer = true
+		MixinBlockRenderTask = true
+		MixinClonedChunkSection = true
+		MixinLevelSlice = true
+		MixinNeoForgeModelAccess = true
