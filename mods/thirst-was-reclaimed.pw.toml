@@ -1,0 +1,13 @@
+name = "Thirst Was Reclaimed"
+filename = "ThirstWasReclaimed-1.21.1-3.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/B9HAFlgU/versions/Ja4npcp1/ThirstWasReclaimed-1.21.1-3.0.4.jar"
+hash-format = "sha512"
+hash = "bc311513a0d9c52a1450aab4bd5b44e747727c9982105dd4f4a23503920e1e9cde8b332a06d2027615ae314a5379439145ec4ddd015f9aeb160d120cba1f941f"
+
+[update]
+[update.modrinth]
+mod-id = "B9HAFlgU"
+version = "Ja4npcp1"

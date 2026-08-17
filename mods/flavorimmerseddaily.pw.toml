@@ -1,13 +1,13 @@
 name = "Flavor Immersed Daily"
-filename = "flavor_immersed_daily-2026.8.10.jar"
+filename = "flavor_immersed_daily-2026.8.16.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/udAEFVga/versions/r2JFp9ZH/flavor_immersed_daily-2026.8.10.jar"
+url = "https://cdn.modrinth.com/data/udAEFVga/versions/QiqJua52/flavor_immersed_daily-2026.8.16.jar"
 hash-format = "sha512"
-hash = "b86dea670a2f314be5365104a5ad4909ff6d7f6c3b6439e9c1ed079860da99ca0b9b6518695b275bec68480a913c12dc4a804867a494c666a907daa17e1a4f84"
+hash = "04a663837c5acb3869b32bd674e34a4bb28e18550812bb93324ccac556316df4430d4c74bdb801cf115ce773efed57a06541b1d9bd97e1ba3fd974aa1edada89"
 
 [update]
 [update.modrinth]
 mod-id = "udAEFVga"
-version = "r2JFp9ZH"
+version = "QiqJua52"

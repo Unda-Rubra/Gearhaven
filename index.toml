@@ -1118,7 +1118,7 @@ hash = "73adc5821b607af041d64bff2cff6f45edd356a7110ab79ea88519a39ffc382a"
 
 [[files]]
 file = "config/thirst/common.toml"
-hash = "0c641054381ba957f06aa923e11f238117e52fee07df8a4217577cd041b97ff4"
+hash = "5e37456ce3f4a171a3c7ec857e2922861da870694acbf39da3a3d24baccfe087"
 
 [[files]]
 file = "config/thirst/container.toml"
@@ -1126,7 +1126,7 @@ hash = "f992a91d5ee5546bc82754ccf24189c3b34ac1652adb185da7518daa90f74f7e"
 
 [[files]]
 file = "config/thirst/item_settings.toml"
-hash = "43c0eae5168d93ca72a7159eed0bc99f921d86ac619421ff7e916d5e385c0d2d"
+hash = "fd2689d790b3d66957168afd05961e4f3d03634e25698a959f531051c3c2cfcc"
 
 [[files]]
 file = "config/thirst/keyword.toml"
@@ -1995,7 +1995,7 @@ metafile = true
 
 [[files]]
 file = "mods/flavorimmerseddaily.pw.toml"
-hash = "afc3fa6cc96fbc24e168f02cf455dd8414594b1dcf36121082bc509b0365475b"
+hash = "ef329a5cb81d5ab0f4860d91069afa96e6b2841bd84e712465f0593d3cdb6038"
 metafile = true
 
 [[files]]
@@ -2050,7 +2050,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "72a190df525af85afc5a83a23a4dcd09351b29452a28cf921ba2bb4f224d8ca0"
+hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
 
 [[files]]
@@ -2284,8 +2284,8 @@ hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
 metafile = true
 
 [[files]]
-file = "mods/thirst-was-taken.pw.toml"
-hash = "ceb726fecdb632fa86f28e7764d06e38b2f71cebbcc076bed18bfef5549faf29"
+file = "mods/thirst-was-reclaimed.pw.toml"
+hash = "7807d606d7c6a69ed1e48be3ca37400c5772547ba19f465be76dfabae8223c78"
 metafile = true
 
 [[files]]
