@@ -1,0 +1,13 @@
+name = "AttributeFix"
+filename = "attributefix-neoforge-1.21.1-21.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lOOpEntO/versions/TyNITLDY/attributefix-neoforge-1.21.1-21.1.3.jar"
+hash-format = "sha512"
+hash = "09e1ff6012d5b7bef7bb701d38feaaab41db4f2fc8b9f669b820fc2c91e53098e093e401062ad80a0ce249c68aa7a6209ac9ee341518b8f640bae2393b1595ae"
+
+[update]
+[update.modrinth]
+mod-id = "lOOpEntO"
+version = "TyNITLDY"

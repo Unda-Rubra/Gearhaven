@@ -1,0 +1,13 @@
+name = "Creeper Firework"
+filename = "CreeperFirework-neoforge-2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/owUiXPam/versions/OwxZJkGR/CreeperFirework-neoforge-2.2.0.jar"
+hash-format = "sha512"
+hash = "776ced2fc04d52e2617c1a0cae56acafcb9b61a85ff3793b6a26e55509c5ce309c607447fe8b632ff48e39e281b2b673d58f4093dc2895b3d6f6f524179f2bd7"
+
+[update]
+[update.modrinth]
+mod-id = "owUiXPam"
+version = "OwxZJkGR"

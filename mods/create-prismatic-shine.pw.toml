@@ -1,0 +1,13 @@
+name = "Create: Prismatic Shine"
+filename = "createprism-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/udEtt0b2/versions/gKqw2akx/createprism-1.2.2.jar"
+hash-format = "sha512"
+hash = "a86c44ac55e562687c798245175858a9921db928cf3b56d7f72e8917fe52448b382bb957f54c2bc05a72eaebaf434c46be7b61386a65cec58f5eb39f94f650e4"
+
+[update]
+[update.modrinth]
+mod-id = "udEtt0b2"
+version = "gKqw2akx"

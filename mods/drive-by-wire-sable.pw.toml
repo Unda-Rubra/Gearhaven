@@ -1,0 +1,13 @@
+name = "Drive-By-Wire with Sable"
+filename = "drivebywire-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KsqvI0hD/versions/zdSwg9kS/drivebywire-0.3.0.jar"
+hash-format = "sha512"
+hash = "09e5cac69600e20e56a9bb66d2c1fd60ff36906f47b86bc1dc27efb1624c671f61bca3c774e08d2c28b59839a914ac067f4d97b304a5ac543a7c016756a46952"
+
+[update]
+[update.modrinth]
+mod-id = "KsqvI0hD"
+version = "zdSwg9kS"

@@ -1,0 +1,13 @@
+name = "Create: Tracks+"
+filename = "tracks_plus-1.0.6b2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/E8eHF2Yl/versions/aknIwLJT/tracks_plus-1.0.6b2.jar"
+hash-format = "sha512"
+hash = "717b58794601519a135991ad98fea746191d215f633eb46b5f08fa418b471cac5330cc2d7911a00b1d5e4eb1c5d2631baa0d0f35cb83991323727b0507a359f3"
+
+[update]
+[update.modrinth]
+mod-id = "E8eHF2Yl"
+version = "aknIwLJT"

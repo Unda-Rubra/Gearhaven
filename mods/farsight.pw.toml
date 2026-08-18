@@ -1,0 +1,13 @@
+name = "Farsight [Forge/Neo]"
+filename = "farsight-1.21.1-5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "99b50f8d4fa8861444a7490aef9f4927a2427622"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8192566
+project-id = 495693

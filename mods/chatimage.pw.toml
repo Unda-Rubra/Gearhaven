@@ -1,0 +1,13 @@
+name = "ChatImage"
+filename = "ChatImage-1.4.7+1.21.0+neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zhVN1dvW/versions/hqAoNNVF/ChatImage-1.4.7%2B1.21.0%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "e835bcf7a27ff04c713359fe9d64277a929de5e6271da9b86702cff62d9e9b980853fa1a4cc54e0b9e7e39bdf4dcf44ccbdf51b5444e717e71a8ab1fd14e4c64"
+
+[update]
+[update.modrinth]
+mod-id = "zhVN1dvW"
+version = "hqAoNNVF"

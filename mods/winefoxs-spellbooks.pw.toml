@@ -1,0 +1,13 @@
+name = "Winefox's Spellbooks"
+filename = "winefoxs_spellbooks-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L43zIK5q/versions/5ymEZzTk/winefoxs_spellbooks-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "f2362d9691f8b564694442c71df0d04d792c10b299db182c85cb8c93454930924252a38576abe7cc7a817befbf62e56c82f6e8efba243d5996701282a8ebe16a"
+
+[update]
+[update.modrinth]
+mod-id = "L43zIK5q"
+version = "5ymEZzTk"

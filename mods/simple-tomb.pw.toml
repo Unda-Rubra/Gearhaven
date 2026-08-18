@@ -1,0 +1,13 @@
+name = "Simple Tomb"
+filename = "simpletomb-1.21.1-1.4.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f034ccbc4e133ba26efeb8333c3c58d0de3f2430"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7222249
+project-id = 399669

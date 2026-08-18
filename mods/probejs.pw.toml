@@ -1,0 +1,13 @@
+name = "ProbeJS"
+filename = "ProbeJS-8.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JJNYRb4B/versions/xC9KUA7R/ProbeJS-8.0.3.jar"
+hash-format = "sha512"
+hash = "342be675356044e7328841eb13116e66e476a6176dea8c634d3ca096b98cf818b314d190e42f2be859c9c9d2c53087fd471b0052e50872c3fc3f5090c813f5f3"
+
+[update]
+[update.modrinth]
+mod-id = "JJNYRb4B"
+version = "xC9KUA7R"
