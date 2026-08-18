@@ -1,0 +1,13 @@
+name = "One Enough Item"
+filename = "oneenoughitem-neoforge-1.21.1-1.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7pCNymxz/versions/1gXNmHrU/oneenoughitem-neoforge-1.21.1-1.0.8.jar"
+hash-format = "sha512"
+hash = "cfb459b24ad65646b2c1abfd3ed23d92e14c69bc1b973cd164d31ccbc2861611220b323be4dfafd14308e448eed7dc25a0703e0a6793a03325032ee802f52a80"
+
+[update]
+[update.modrinth]
+mod-id = "7pCNymxz"
+version = "1gXNmHrU"
