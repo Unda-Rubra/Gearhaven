@@ -1,0 +1,13 @@
+name = "YUNG's Better Witch Huts"
+filename = "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t5FRdP87/versions/AvedwcIe/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar"
+hash-format = "sha512"
+hash = "9baa8a1f36a2a36efc3df58ab9347fd9f326b551ad78e3f600ed9d68862c619752ac0770804807efb15a46fcb4d9f6e2baf6a11f622d3ebb6c865662f6c7bcfd"
+
+[update]
+[update.modrinth]
+mod-id = "t5FRdP87"
+version = "AvedwcIe"

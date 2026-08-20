@@ -1,0 +1,13 @@
+name = "EfficientHashing"
+filename = "efficient_hashing-neoforge-1.0.0+1.21.1-mod.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zEcqovh2/versions/p3GwChMK/efficient_hashing-neoforge-1.0.0%2B1.21.1-mod.jar"
+hash-format = "sha512"
+hash = "15f98174d2a26e4c9b1abe50d02958035e538ecb740a67bcfe17f25d10f9f6be574b77fe2cda5e7d7f8fcaf93e56a51210011b8808804f54827608a56e08b90e"
+
+[update]
+[update.modrinth]
+mod-id = "zEcqovh2"
+version = "p3GwChMK"

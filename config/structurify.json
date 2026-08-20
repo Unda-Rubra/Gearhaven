@@ -1,0 +1,559 @@
+{
+  "config_version": "2.0.33",
+  "config_datetime": "2026-08-20_19-40-39",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    }
+  ],
+  "structures": [
+    {
+      "name": "minecraft:bastion_remnant",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:buried_treasure",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:desert_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:end_city",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:fortress",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:igloo",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:jungle_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:mansion",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:mineshaft",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:mineshaft_mesa",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:monument",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ocean_ruin_cold",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ocean_ruin_warm",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:pillager_outpost",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:stronghold",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:swamp_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:trail_ruins",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_plains",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "betterwitchhuts:witch_circle",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:chocolate_pit",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:create_bastion",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:create_copper_statue",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:create_ruined_castle",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createairdrop",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createcontainer",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createdesertwell",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createlittleman",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createlosttrainstation",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createminiskyvillage",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createmonsterroom",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createoldruine",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createwitchhut",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:crimsite_tower",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:deadlordshouse",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:honey_pit",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:obsidiantemple",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:pillagersteampunkairship",
+      "is_disabled": true
+    },
+    {
+      "name": "iceandfire:cyclops_cave",
+      "is_disabled": true
+    },
+    {
+      "name": "iceandfire:gorgon_temple",
+      "is_disabled": true
+    },
+    {
+      "name": "iceandfire:graveyard",
+      "is_disabled": true
+    },
+    {
+      "name": "iceandfire:hydra_cave",
+      "is_disabled": true
+    },
+    {
+      "name": "iceandfire:siren_island",
+      "is_disabled": true
+    },
+    {
+      "name": "irons_spellbooks:ancient_battleground",
+      "is_disabled": true
+    },
+    {
+      "name": "irons_spellbooks:catacombs",
+      "is_disabled": true
+    },
+    {
+      "name": "irons_spellbooks:citadel",
+      "is_disabled": true
+    },
+    {
+      "name": "irons_spellbooks:evoker_fort",
+      "is_disabled": true
+    },
+    {
+      "name": "irons_spellbooks:ice_spider_den",
+      "is_disabled": true
+    },
+    {
+      "name": "irons_spellbooks:impaled_icebreaker",
+      "is_disabled": true
+    },
+    {
+      "name": "irons_spellbooks:mangrove_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:amazon_camp",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:asian_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:barbarian_camp",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:caledonia_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:colonial_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:desert_camp",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:desertoasis_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:incan_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:lostmesacity_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:medieval_birch_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:medieval_dark_oak_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:medieval_oak_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:medieval_spruce_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:ship",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:shire_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "minecolonies:warpednetherlands_colony",
+      "is_disabled": true
+    },
+    {
+      "name": "mowziesmobs:frostmaw_spawn",
+      "is_disabled": true
+    },
+    {
+      "name": "mowziesmobs:monastery",
+      "is_disabled": true
+    },
+    {
+      "name": "mowziesmobs:umvuthana_grove",
+      "is_disabled": true
+    },
+    {
+      "name": "mowziesmobs:wrought_chamber",
+      "is_disabled": true
+    },
+    {
+      "name": "natures_spirit:village_adobe",
+      "is_disabled": true
+    },
+    {
+      "name": "natures_spirit:village_coconut",
+      "is_disabled": true
+    },
+    {
+      "name": "natures_spirit:village_cypress",
+      "is_disabled": true
+    },
+    {
+      "name": "natures_spirit:village_wisteria",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:conduit_ruin",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:creeping_crypt",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:deepslate_camp",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    },
+    {
+      "name": "nova_structures:illager_hideout",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:lone_citadel",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:nether_keep",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:nether_port",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:nether_skeleton_tower_crimson",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:nether_skeleton_tower_soul",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:nether_skeleton_tower_warped",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:nether_skeleton_tower_waste",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:piglin_camp",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:piglin_donjon",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:piglin_outstation",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:remnant_big_remnant_3",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:remnant_bridge_remnant",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:remnant_classic_village",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:remnant_desert_remnant",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:remnant_zombie_horse_ranch",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_1",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_2",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_3",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_4",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_5",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:skeleton_camp_crimson",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:skeleton_camp_soul",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:skeleton_camp_warped",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:skeleton_camp_waste",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:toxic_lair",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:underground_house",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:village_birch",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:village_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:wild_ruin",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:earth_operation_base",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:earth_satellite",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:mars_main_temple",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:mercury_quarry",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:mercury_small_castle",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:mercury_volcano",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:meteor",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:moon_destroyed_village",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:moon_launchpad",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:small_moon_dungeon",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:venus_catacombs",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:venus_crash_site",
+      "is_disabled": true
+    },
+    {
+      "name": "stellaris:venus_outpost",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

@@ -1,0 +1,14 @@
+name = "Spell Colonies"
+filename = "spell_colonies-2101.1.2-fix1.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "238f9bbe10e78c1aefd524e839bb5e99bf0f7ecf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8095116
+project-id = 1297833

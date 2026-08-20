@@ -1,0 +1,13 @@
+name = "SodiumLeafCulling-Unofficial"
+filename = "sodiumleafculling-neoforge-2.0.0-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xtym7fz7/versions/DRC9JbfV/sodiumleafculling-neoforge-2.0.0-1.21.1.jar"
+hash-format = "sha512"
+hash = "7b1611461a77fad7aad7b3b2f29dbbb919738e6dfd99ddd706ec6af90301fae25da56d904a832679c50460116e4b3dc4ba1ffa31177d0f7f475ddfead76ed335"
+
+[update]
+[update.modrinth]
+mod-id = "xtym7fz7"
+version = "DRC9JbfV"

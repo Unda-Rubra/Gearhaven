@@ -1,0 +1,13 @@
+name = "Combat Nouveau"
+filename = "CombatNouveau-v21.1.2-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Iv3kcKZn/versions/us081FGF/CombatNouveau-v21.1.2-1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "288b11a3863a43a66255bbf27a92802ad75857b8d3d031d145741350afcec1409346517dc3e85f6e91b973842e134778d463cf8d2d7e347000373e9128b66a86"
+
+[update]
+[update.modrinth]
+mod-id = "Iv3kcKZn"
+version = "us081FGF"
