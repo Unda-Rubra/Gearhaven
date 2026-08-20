@@ -1,0 +1,13 @@
+name = "IceAndFire Community Edition"
+filename = "iceandfire-2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VpmCsizY/versions/soR168tk/iceandfire-2.0.jar"
+hash-format = "sha512"
+hash = "5545eeb0d999bbc1de32085d0f14ebcdc2908b4d9025191ebea485c134488ef812f74fa0c65e79917d0d436b522f85f7d17e0d83e0f704406dfc524d34c51860"
+
+[update]
+[update.modrinth]
+mod-id = "VpmCsizY"
+version = "soR168tk"

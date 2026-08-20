@@ -1,0 +1,13 @@
+name = "Majo's Spell Enchantment"
+filename = "MajoSpellEnchantment-NeoForge-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "475727931faff84fb7bf076d38b73f6b4444c4e9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7888250
+project-id = 1318486

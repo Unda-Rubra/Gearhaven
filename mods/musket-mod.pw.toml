@@ -1,0 +1,13 @@
+name = "Musket Mod"
+filename = "musketmod-1.21.1-neoforge-1.5.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/967vM4zw/versions/hro6S6DK/musketmod-1.21.1-neoforge-1.5.4.jar"
+hash-format = "sha512"
+hash = "a1a544293057232305c75ffb288a33592115cda83471dd508b4a8fc27ff5332be0c57c0961bc57a34077f437c3ddd3bb6c9f3bf84dc9c813be7d8919a79fcf6c"
+
+[update]
+[update.modrinth]
+mod-id = "967vM4zw"
+version = "hro6S6DK"

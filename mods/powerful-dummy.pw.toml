@@ -1,0 +1,13 @@
+name = "Powerful Dummy"
+filename = "powerful_dummy-21-0.0.9-hotfix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0dc18201fe954400f8f045e2c5f6b851b9617754"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8232901
+project-id = 1276893

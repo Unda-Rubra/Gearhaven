@@ -1,0 +1,13 @@
+name = "chatbox"
+filename = "chatbox-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ufXo7W3f/versions/HavGMP2x/chatbox-1.1.4.jar"
+hash-format = "sha512"
+hash = "0ccd11684b1d6deb6dc4e0e3a4a53a9837e27c7e86edc73a2a32cc7ebfa464c1712598c2f496654eb05bc304be3f2c4c55f8c022840adc6309f6be73a89ed677"
+
+[update]
+[update.modrinth]
+mod-id = "ufXo7W3f"
+version = "HavGMP2x"
