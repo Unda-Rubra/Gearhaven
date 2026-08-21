@@ -1,0 +1,62 @@
+	#.
+	#Fine tune the kinetic stats of individual components
+	[stressValues.v2]
+
+		#.
+		#.
+		#[in Stress Units]
+		#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+		[stressValues.v2.impact]
+			steel_encased_shaft = 0.0
+			heavy_casing_encased_shaft = 0.0
+			lead_flywheel = 0.0
+			brass_mechanical_pump = 4.0
+			heavy_casing_encased_aluminum_cogwheel = 0.0
+			generator = 50.0
+			nickel_flywheel = 0.0
+			heavy_casing_encased_steel_cogwheel = 0.0
+			aluminum_flywheel = 0.0
+			steel_encased_large_aluminum_cogwheel = 0.0
+			cast_iron_flywheel = 0.0
+			steel_gearbox = 0.0
+			steel_encased_aluminum_cogwheel = 0.0
+			rotor = 240.0
+			steel_mechanical_pump = 4.0
+			large_aluminum_cogwheel = 0.0
+			plastic_mechanical_pump = 4.0
+			machine_input = 4.0
+			winding_machine = 4.0
+			steel_flywheel = 0.0
+			cast_iron_mechanical_pump = 4.0
+			heavy_casing_encased_large_aluminum_cogwheel = 0.0
+			large_steel_cogwheel = 0.0
+			heavy_casing_encased_large_steel_cogwheel = 0.0
+			aluminum_cogwheel = 0.0
+			steel_encased_large_steel_cogwheel = 0.0
+			aluminum_mechanical_pump = 4.0
+			steel_encased_steel_cogwheel = 0.0
+			steel_cogwheel = 0.0
+			concrete_hose = 4.0
+
+		#.
+		#[in Stress Units]
+		#Configure how much stress a source can accommodate for.
+		[stressValues.v2.capacity]
+			radial_engine = 100.0
+			large_engine = 55.0
+			regular_engine = 100.0
+			electric_motor = 12.0
+			simple_large_engine = 40.0
+			turbine_engine = 100.0
+
+		#.
+		#Fine tune the resistivity stats of individual cable types
+		[stressValues.resistivityValues.v2]
+
+			#.
+			#.
+			#Configure the individual resistivity of cable types.
+			[stressValues.resistivityValues.v2.resistivity]
+				copper = 0.001879999996162951
+				constantan = 1.0
+				aluminum = 0.0027000000700354576

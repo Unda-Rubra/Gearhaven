@@ -85,6 +85,22 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
+file = "config/iceandfire/iaf-client.json"
+hash = "694bfff17aba1e882cc5c7f5f55be7bdb7e7d912443fa1e501d4c76644fb3a2f"
+
+[[files]]
+file = "config/iceandfire/iaf-common.json"
+hash = "bb8021e5ea12412ed20013bfa9a7900014b2c551a3b9b4ccd5687eb57c8c3dbd"
+
+[[files]]
+file = "config/mowziesmobs-client.toml"
+hash = "21a45ae83dd132bda8413bdc7efbdacb1f428cbd4869fc5c5d252b0763bf6688"
+
+[[files]]
+file = "config/mowziesmobs-common.toml"
+hash = "6b2e691352bb05c7d05ffa80ab5ce61773c3302e9339bdaf313d605b94e64bdd"
+
+[[files]]
 file = "config/naturaltemperature-common.toml"
 hash = "f223031d5fe65959055546f2724f10c47aee0a46999da0390deed1273bcaa643"
 
@@ -109,12 +125,24 @@ file = "config/smsn.json"
 hash = "06c43eb80cd0311096d07505983450f7b11685804ac0182034347c975e476b22"
 
 [[files]]
+file = "config/stellaris-config.json"
+hash = "a9870b3b32dfbd868fd5d05acab3a9caa5d808aab6e67436f5cfb36d9fcd7f82"
+
+[[files]]
 file = "config/structurify.json"
 hash = "7d39383e9f63dd427335339ed114d15ac9d10d40eea60fb7f4168d1378e9f2d0"
 
 [[files]]
 file = "config/tectonic.json"
 hash = "deb101e05d57c5f144f76fe6a822c2661009d5b3ad669171bd1c8792a7b31642"
+
+[[files]]
+file = "config/tfmg-common.toml"
+hash = "4721f66ee7b1702dce7e2c37f1d80f19e85454ce9d3dda49089b516e8330a755"
+
+[[files]]
+file = "config/tfmg-server.toml"
+hash = "f0324f5a9542ea073b7005aa56cb598546f01c7b4e984eab707e5f8082e5fb69"
 
 [[files]]
 file = "config/touhou_little_maid-common.toml"

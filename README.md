@@ -1,6 +1,6 @@
-# Gearhaven（齿轮星都）
+# Gearheaven（齿轮星都）
 
-Gearhaven 是 Unda Rubra 维护的 Minecraft 整合包。本仓库保存整合包源文件，并使用 Packwiz 管理模组元数据、配置、脚本与导出清单；它不是可以直接启动的 Minecraft 实例。
+Gearheaven 是 Unda Rubra 维护的 Minecraft 整合包。本仓库保存整合包源文件，并使用 Packwiz 管理模组元数据、配置、脚本与导出清单；它不是可以直接启动的 Minecraft 实例。
 
 ## 技术基线
 

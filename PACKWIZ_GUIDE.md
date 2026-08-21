@@ -1,4 +1,4 @@
-# Gearhaven（齿轮星都）整合包协作指南
+# Gearheaven（齿轮星都）整合包协作指南
 
 本仓库是整合包的**源文件仓库**，不是可以直接双击启动的 Minecraft 实例。当前目标环境由 `pack.toml` 定义：
 
@@ -85,9 +85,9 @@ Get-Item .\pack.toml
 
 ```text
 工作目录/
-├── Gearhaven/                    # Git 仓库；只保存源文件
-├── Gearhaven-builds/             # 本地导出的 .mrpack / CurseForge ZIP
-└── 启动器实例/Gearhaven-Dev/
+├── Gearheaven/                    # Git 仓库；只保存源文件
+├── Gearheaven-builds/             # 本地导出的 .mrpack / CurseForge ZIP
+└── 启动器实例/Gearheaven-Dev/
     └── .minecraft/               # 实际运行、调试和生成配置的目录
 ```
 
@@ -107,7 +107,7 @@ Get-Item .\pack.toml
 macOS：
 
 ```bash
-cd /path/to/Gearhaven
+cd /path/to/Gearheaven
 chmod +x ./packwiz-macos
 ./packwiz-macos --help
 ./packwiz-macos list
@@ -116,7 +116,7 @@ chmod +x ./packwiz-macos
 Linux：
 
 ```bash
-cd /path/to/Gearhaven
+cd /path/to/Gearheaven
 chmod +x ./packwiz-linux
 ./packwiz-linux --help
 ./packwiz-linux list
@@ -333,25 +333,25 @@ Packwiz 会依据项目类别把元数据放到相应目录。直接把 ZIP 放�
 推荐把产物写到仓库旁边的独立目录，避免把大文件留在 Git 工作区。Windows PowerShell：
 
 ```powershell
-New-Item -ItemType Directory -Force ..\Gearhaven-builds | Out-Null
+New-Item -ItemType Directory -Force ..\Gearheaven-builds | Out-Null
 
 .\packwiz.exe mr export `
-  -o ..\Gearhaven-builds\Gearhaven-local.mrpack
+  -o ..\Gearheaven-builds\Gearheaven-local.mrpack
 
 .\packwiz.exe cf export `
-  -o ..\Gearhaven-builds\Gearhaven-local-CurseForge.zip
+  -o ..\Gearheaven-builds\Gearheaven-local-CurseForge.zip
 ```
 
 macOS；Linux 将可执行文件名替换为 `packwiz-linux`：
 
 ```bash
-mkdir -p ../Gearhaven-builds
+mkdir -p ../Gearheaven-builds
 
 ./packwiz-macos refresh
 ./packwiz-macos mr export \
-  -o ../Gearhaven-builds/Gearhaven-local.mrpack
+  -o ../Gearheaven-builds/Gearheaven-local.mrpack
 ./packwiz-macos cf export \
-  -o ../Gearhaven-builds/Gearhaven-local-CurseForge.zip
+  -o ../Gearheaven-builds/Gearheaven-local-CurseForge.zip
 ```
 
 - `mr export` 生成可导入 Modrinth App、Prism Launcher 等启动器的 `.mrpack`。
@@ -366,7 +366,7 @@ mkdir -p ../Gearhaven-builds
 ## 本仓库目录结构
 
 ```text
-Gearhaven/
+Gearheaven/
 ├── pack.toml                  # 整合包元数据、MC/NeoForge 版本、索引哈希
 ├── index.toml                 # Packwiz 自动生成的文件清单；不要手改
 ├── .packwizignore            # 不进入整合包的文件规则
@@ -485,7 +485,7 @@ hash = "..."
 完整流程：
 
 1. 同步目标分支，确认仓库工作区没有与本次任务无关的改动。
-2. 使用本地导出包或 GitHub Actions Artifact，在启动器中创建/更新一个独立的 `Gearhaven-Dev` 测试实例。
+2. 使用本地导出包或 GitHub Actions Artifact，在启动器中创建/更新一个独立的 `Gearheaven-Dev` 测试实例。
 3. 首次启动一次，让模组在实例的 `.minecraft` 中生成所需配置。
 4. 在测试实例中调整 `config/`、`defaultconfigs/`、`kubejs/`、纹理、资源包、菜单素材等，并用 `/reload`、`F3+T` 或完整重启验证。
 5. 测试通过后，按相同相对路径把**有意修改的文件**复制回仓库，例如：

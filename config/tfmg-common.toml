@@ -1,0 +1,145 @@
+#.
+#Config options for TFMG's machinery
+[machines]
+	#.
+	#.
+	#Changes the radius fire extinguishers can remove fire in.
+	# Default: 1
+	# Range: > 0
+	fireExtinguisherClearRadius = 1
+	#.
+	#Sets the internal resistance of the electric motor.
+	# Default: 30.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	electricMotorInternalResistance = 30.0
+	#.
+	#Determines the maximum size of coke ovens.
+	# Default: 5
+	# Range: > 1
+	cokeOvenMaxSize = 5
+	#.
+	#How much Forge Energy is in one watt-tick.
+	# Default: 1.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	FEtoWattTickConversionRate = 1.0
+	#.
+	#The minimum electric current that will make electrolyzers operational.
+	# Default: 5
+	# Range: > 1
+	electrolysisMinimumCurrent = 5
+	#.
+	#The maximum length of engines.
+	# Default: 5
+	# Range: > 1
+	engineMaxLength = 5
+	#.
+	#Y level surface scanner scan at.
+	# Default: -64
+	# Range: > -512
+	surfaceScannerScanDepth = -64
+	#.
+	#How much FE can polarizer charge per tick.
+	# Default: 1000
+	# Range: > 1
+	polarizerItemChargingRate = 1000
+
+	#.
+	#Accumulator
+	[machines.accumulator]
+		#.
+		#Determines the storage space of accumulators.
+		# Default: 100000
+		# Range: > 1
+		accumulatorStorage = 100000
+		#.
+		#Determines the voltage accumulators output.
+		# Default: 12
+		# Range: > 1
+		accumulatorVoltage = 12
+		#.
+		#Sets the maximum amperage an accumulator can provide.
+		# Default: 20
+		# Range: > 1
+		accumulatorMaxAmpOutput = 20
+		#.
+		#Sets the maximum charging rate of accumulators.
+		# Default: 100
+		# Range: > 1
+		accumulatorChargingRate = 100
+
+	#.
+	#Firebox
+	[machines.firebox]
+		#.
+		#If set to true,fireboxes will require exhaust management.
+		fireboxExhaustRequirement = true
+		#.
+		#Determines the amount of fuel a firebox needs to run for 3 seconds.
+		# Default: 100
+		# Range: > 1
+		fireboxFuelConsumption = 100
+
+	#.
+	#Engines
+	[machines.engines]
+		#.
+		#Changes the volume of engines.
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		engineLoudness = 1.0
+
+	#.
+	#Generators
+	[machines.generators]
+		#.
+		#Determines how powerful the large generator is.
+		# Default: 4.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		largeGeneratorModifier = 4.0
+		#.
+		#Changes the lowest speed the large generator can work on.
+		# Default: 70.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		largeGeneratorMinSpeed = 70.0
+		#.
+		#Determines how powerful the generator is.
+		# Default: 1.399999976158142
+		# Range: 0.0 ~ 3.4028234663852886E38
+		GeneratorModifier = 1.399999976158142
+		#.
+		#Changes the lowest speed the generator can work on.
+		# Default: 40.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		generatorMinSpeed = 40.0
+
+	#.
+	#Blast Furnace
+	[machines.blast_furnace]
+		#.
+		#Changes the maximum height of the blast furnace.
+		# Default: 10
+		# Range: > 3
+		blastFurnaceMaxHeight = 10
+		#.
+		#Sets the maximum time that can be saved by increasing blast furnace height.
+		# Default: 1.0
+		# Range: 0.10000000149011612 ~ 3.4028234663852886E38
+		blastFurnaceHeightSpeedModifier = 1.0
+		#.
+		#Determines how many ticks does it take to consume one fuel.
+		# Default: 600
+		# Range: > 1
+		blastFurnaceFuelConsumption = 600
+
+#.
+#Worldgen Settings
+[deposits]
+	#.
+	#.
+	#Sets the maximum oil reserves a deposit can have.
+	# Default: 10000
+	# Range: > 1000
+	depositMaxReserves = 10000
+	#.
+	#Makes deposits bottomless.
+	infiniteDeposits = true
